@@ -17,12 +17,16 @@
             align-items: center;
             justify-content: center;
             font-family: 'PixelFont', sans-serif;
-            background: #f0f0f0 url('images/temp_homescreen.png') no-repeat center center;
-            background-size: cover;
+            background: #f0f0f0;
+            text-align: center;
         }
 
         .container {
             text-align: center;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
 
         .title {
@@ -37,9 +41,27 @@
             background-color: #fff;
             cursor: pointer;
             text-decoration: none;
+            margin-bottom: 20px;
         }
 
         .start-button:hover {
+            background-color: #ddd;
+        }
+
+        .game-container {
+            display: none;
+        }
+
+        .choice-button {
+            font-size: 24px;
+            padding: 10px 20px;
+            margin: 10px;
+            border: 2px solid #000;
+            background-color: #fff;
+            cursor: pointer;
+        }
+
+        .choice-button:hover {
             background-color: #ddd;
         }
     </style>
@@ -47,7 +69,13 @@
 <body>
     <div class="container">
         <div class="title">What vegetable are you?</div>
-        <a href="#" class="start-button">Start</a>
+        <a href="#" class="start-button" onclick="startGame()">Start</a>
+        <div class="game-container" id="game-container">
+            <div id="story-text"></div>
+            <div class="choices" id="choices"></div>
+        </div>
     </div>
-</body>
+
+    <script src="js/mainGame.js"></script> <!--swap out the path for main game-->
+</body> 
 </html>
