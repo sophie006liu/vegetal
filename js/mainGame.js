@@ -1,7 +1,7 @@
 const personalities = { 
-    "Onion": 0, // The Innovator
-    "Broccoli": 0, // The Strategist
-    "Corn": 0, // The Empath
+    "Onion": 0,
+    "Broccoli": 0,
+    "Corn": 0,
     "Garlic": 0, // The Leader
     "Jalapeno": 0, // The Adventurer
     "Kale": 0, // The Analyst
@@ -257,7 +257,7 @@ const gameData = {
         "choices" : {
             "Heck no I’m not investigating!": [30,["Kale"]],
             "The open window and it’s billowing curtains… it’s suspicious": [30,["Okra"]],
-            "The closet. It looks slighlty disheveled?": [30,["Okra", "Pumpkin"]],
+            "The closet. It looks slightly disheveled?": [30,["Okra", "Pumpkin"]],
             "Call the veggie police!": [30, ["Corn", "Garlic"]]
         }
     },
@@ -358,8 +358,7 @@ function renderState(state) {
     }
 }
 
-function changeState(newState, selectedPersonalities) {
-    console.log("changing states");
+function changeState(newState, selectedPersonalities) { 
     console.log(personalities); 
     selectedPersonalities.forEach(personality => {
         personalities[personality]++;
@@ -399,6 +398,5 @@ function startGame() {
 }
 
 window.onload = () => {
-    console.log("e");
     renderState(currentState);
-};
+}
