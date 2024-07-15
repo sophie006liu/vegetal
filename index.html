@@ -37,12 +37,12 @@
         }
 
         .title {
-            font-size: 3vw;
+            font-size: 21px;
             margin-bottom: 3vh;
         }
 
         .start-button {
-            font-size: 2.5vw;
+            font-size: 21px;
             padding: 1vh 2vw;
             border: 2px solid #000;
             background-color: #fff;
@@ -58,19 +58,47 @@
         .game-container {
             display: none;
         }
+ 
+        .choices {
+        
+        display: flex;
+        flex-direction: column; /* Arrange buttons in a column */
+        align-items: center; /* Center the buttons horizontally */
+        gap: 10px; /* Space between the buttons */
+        margin-top: 2rem; /* Space above the choices container */
+        }
 
         .choice-button {
-            font-size: 2vw;
-            padding: 1vh 2vw;
-            margin: 1vh 0;
-            border: 2px solid #000;
-            background-color: #fff;
-            cursor: pointer;
+            font-family: 'PixelFont', sans-serif;
+            font-size: 18px; /* Adjust font size to be smaller */
+            padding: 1vh 1vw; /* Adjust padding based on viewport height and width */
+            border: 0.1px solid #00000045; /* Solid border */
+            background-color: #fff; /* White background */
+            cursor: pointer; /* Pointer cursor on hover */
+            transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
         }
 
         .choice-button:hover {
-            background-color: #ddd;
+            background-color: #ddd; /* Slightly darker background on hover */
         }
+        .story-text {
+            font-size: 21px;
+            margin-bottom: 1rem; /* Space above the choices container */
+        /* padding-bottom: 5rem; */
+        }
+
+        .image-container {
+            max-width: 70%; /* Set max width of image container */
+            margin: 0 auto; /* Center the image horizontally */
+        }
+
+        .image-container img {
+            width: 100%; /* Make the image fill its container */
+            height: auto; /* Maintain aspect ratio */
+            display: block; /* Remove any extra space */
+            max-width: 100%; /* Ensure image does not exceed its container */
+        }
+
     </style>
 </head>
 <body>
@@ -78,7 +106,10 @@
         <div class="title">What vegetable are you?</div>
         <a href="#" class="start-button" onclick="startGame()">Start</a>
         <div class="game-container" id="game-container">
-            <div id="story-text"></div>
+            <div class ="story-text" id="story-text"></div>
+            <div class="image-container">
+                <img id="story-image" src="images/placeholder.png" alt="Story Image"/>
+            </div>
             <div class="choices" id="choices"></div>
         </div>
     </div>

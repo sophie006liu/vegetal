@@ -17,7 +17,7 @@ const personalities = {
 };
 const gameData = {
     "1": {
-        "text": "You and your vegetable friends want to plan a hangout in VeggieVille. What snacks are you bringing?",
+        "text": "You and your veggie friends want to hangout in VeggieVille. What snacks are you bringing?",
         "choices": {
             "Beef sticks": [2,["Jalapeno","Pumpkin","Performer","Bok Choy"]],
             "Granola": [2,["Broccoli", "Sage", "Sweet Potato"]],
@@ -35,16 +35,26 @@ const gameData = {
         }
     },
     "3": {
-        "text": "After gearing up with sunglasses and sunscreen, what are you going to do?",
+        "text": "After gearing up with sunglasses and sunscreen, what beach activity are you looking forward to?",
         "choices": {
-            "Build a sandcastle with your friends!": [7,["Jalapeno", "Bitter mellon"]],
-            "Set up a beach picnic": [7,["Green Beans", "Bok Choy", "Sweet Potato"]],
-            "Explore tide pools and collect shells": [7,["Okra", "Pumpkin", "Carrot"]],
-            "Read the book you've been eyeing": [7,["Pumpkin", "Broccoli", "Kale"]],
+            "Build a sandcastle with your friends!": [41,["Jalapeno", "Bitter mellon"]],
+            "Set up a beach picnic": [41,["Green Beans", "Bok Choy", "Sweet Potato"]],
+            "Explore tide pools and collect shells": [41,["Okra", "Pumpkin", "Carrot"]],
+            "Read the book you've been eyeing": [41,["Pumpkin", "Broccoli", "Kale"]],
+        }
+    },
+    "41": {
+        "text": "The sun feels so nice, everyone is having a blast! You start to think: ",
+        "choices": {
+            "This is fun, I'm grateful for my friends": [7,["Jalapeno", "Bitter mellon"]],
+            "This shell is so funky lol": [7,["Green Beans", "Bok Choy", "Sweet Potato"]],
+            "Love my friends, but I wanna go home": [7,["Okra", "Pumpkin", "Carrot"]],
+            "What if we all went scuba diving": [7,["Pumpkin", "Broccoli", "Kale"]],
         }
     },
     "7": {
-        "text": "The warmth of the sun bathes you and your veggie friends as you relax on the sandy shore.\\nSuddenly, the sunlight dims, and a large shadow falls over the beach. You look up to see a giant hand reaching down from the sky. Before you can react, the hand scoops you and your friends up, and the world around you spins into a blur.",
+        "text": "Suddenly, the sunlight dims, and a large shadow falls over the beach. \
+                 A giant hand reaches down from the sky, and scoops you and your friends up, and the world turns dark...",
         "choices": {
             "Continue": [8,[]]
         }
@@ -52,38 +62,58 @@ const gameData = {
     "8": {
         "text": "As you and your friends regain consciousness, you realize you're in someone's pantry! Hurry and escape before the human eats you!",
         "choices": {
-            "Sprint for the nearby window!": [9,["Jalapeno"]],
-            "How about we stealth your way out window instead": [9,["Kale", "Potato"]],
-            "One friend suggests jumping down a hole in the backyard, not sure where it goes…": [19, ["Onion", "Carrot"]]
+            "Everyone sprint for the nearby window!": [9,["Jalapeno"]],
+            "How about we stealth our way out the window instead": [9,["Kale", "Potato"]],
+            "Listen to your friend who suggests jumping down a hole in the backyard, not sure where it goes…": [19, ["Onion", "Carrot"]]
         }
     },
     "9": {
-        "text": "You all take a great leap out a window, and now you're in a corn rocket flying through the celestial corn cosmos! You see many buttons and levers around you. Which do you pull/press/fiddle with to go back home?",
+        "text": "The window was a portal to the Corn Cosmos,\
+         and you're now in a corn rocket floating in space!\
+         Which of the many buttons and levers do you fiddle with to go back home?",
         "choices": {
-            "The lever that you see in those TV shows that launches them into hyperspace, or whatever they call it": [10,["Bok Choy"]],
-            "*Methodically* type random stuff in the hologrpahic keyboard above you, you know what you're doing...": [10, ["Onion"]]
+            "The lever that you see in movies that takes you into hyperspace, or whatever they call it": [10,["Bok Choy"]],
+            "*Methodically* type random stuff in the holographic keyboard above you": [10, ["Onion"]]
         }
     },
-    "10" : {
-        "text": "\"Umm I still don't know where we are...\" says one of your friends. What should you guys do next?",
+    "10": {
+        "text": "Buckle up! Stars and green galaxies fly by as the corn rocket shoots off!",
         "choices": {
-            "Pull more random levers and press more buttons!": [11,["Jalapeno"]],
-            "Look around for a map of the galaxies. There's surely one in the ship right?": [39, ["Okra"]],
+            "Wow. This is beautiful...": [43, []],
+            "Please take us back *veggie fingers intensely crossed*": [10,["Bok Choy"]],
+            "I recognize that constellation! It's Ori-onion!": [10, ["Onion"]]
+        }
+    },
+    "43" : {
+        "text": "\"Umm where we are now...\" asks one of your friends. What should you guys do next?",
+        "choices": {
+            "Pull more levers and press more buttons!": [11,["Jalapeno"]],
+            "Look around for a map. There's surely one in the ship right?": [39, ["Okra"]],
             "Stay calm, organize everyone, and discuss next steps": [39,["Garlic"]],
-            "Carefully fiddle around to find out what exactly each button and lever does.": [11,["Onion"]]
+            "Experiment with each lever to figure out how the ship works.": [11,["Onion"]]
         }
     },
     "11" : {
-        "text": "Just as you are about to press the next questionably random button, a glowing orb appears in front of you. The glistening corn cob yells, \"Stop! Stop! You fools! Ugh. We always get careless travelers like you. Where are you trying to go? I'll take you there for corn's sake.\"",
+        "text": "In your button frenzy, a glowing orb appears in the spaceship.",
+        "choices":{
+            "Is this the end?": [42, []],
+            "Everyone hide!": [42, []],
+            "ALIENS!": [42, []],
+        }
+    },
+    "42": {
+        "text": "A glowing popcorn kernel emerges and yells, \"Stop you fools! Ugh,\
+                VeggieVille natives, so stupid. Let me take you back.\"",
         "choices": {
-            "Thanks": [12,["Potato"]],
+            "Thanks.": [12,["Potato"]],
             "THANK YOU! You saved us":[12,["Sweet Potato"]],
-            "We can handle this ourselves, but thanks": [12, ["Kale"]],
+            "Who are you? We can handle this ourselves": [12, ["Kale"]],
             "Thank you so much! But who are you?": [12,["Onion"]]
         }
     },
     "39" : {
-        "text": "After tinkering and reading through a corn shaped rocket manual and map, your team has an idea for what should be the right path of action.",
+        "text": "After reading through the corn rocket manual, your team \
+            has an idea for what should be next move.",
         "choices": {
             "Full send! VeggieVille here we come": [40,["Jalapeno"]],
             "We should double check...": [40, ["Broccoli"]],
@@ -92,29 +122,43 @@ const gameData = {
         }
     },
     "40": {
-        "text": "\"Here goes nothing\", Dave the Daikon sighs... You feel time and space warp around you as you travel through galaxies, the stars streaking by in a dazzling display of cosmic light. The ship makes a hard break, and the corn husk doors gently release. You have arrived in VeggieVille. What are you going to now that you're back?",
-        "choices" : {
-            "Go partying at Club Carrot. Dance the night away and celebrate a long journey!": [13, ["Bok Choy"]],
-            "Spend some alone time at your favorite cozy bench/spot. You desperately need this fr": [13, ["Sweet Potato", "Napa Cabbage"]],
-            "Organize a Community Welcome Back Picnic with freshly harvested canonical fruits": [13, ["Kale"]],
-            "Pick a different hangout place with your friends and debrief what happened and simply enjoy their company": [13, ["Sweet Potato"]]
+        "text": "\"Here goes nothing!\", says Dave the Daikon. As Dave reaches for the lever \
+        Sally the Spinach yells \"Wait! I don't feel good about this. I'm really scared...\". \
+        What do you do?",
+        "choices": {
+            "It was me. I was the one that yelled": [44, []],
+            "Re-explain the math. See? Nothing to be afraid of": [44,[]],
+            "Stand back and let someone else handle the situation": [44, []],
+            "Go over and comfort them.": [44,[]]
+        }
+    },
+    "44": {
+        "text": "With the situation settled, you all pull the lever together. \
+            Everthing is moving so fast! The ship slows down, anc\
+            the corn husk doors release. You're back in VeggieVille!",
+        "choices": {
+            "Time to hit up Club Carrot! I need to let loose": [13, ["Bok Choy"]],
+            "Go to your favorite spot to unwind by yourself": [13, ["Potato"]],
+            "Call all of VeggieVille for a picnic and to tell everyone what happened": [13, ["Kale"]],
+            "Throw up from the rocket-sickness": [13, ["Sweet Potato"]]
         }
     },
     "12" : {
-        "text": "Right after you respond, the corn does a magical corn twirl on its corn axis, and sparkly effects rush around you. When they dissipate you find yourself back in your hometown, VeggieVille. What are you going to do first now that you're back home in VeggieVille?",
+        "text": "The kernel does a magical twirl with a pop! \
+                You find yourself back in VeggieVille. What do you do now?",
         "choices": {
-            "Go partying at Club Carrot. Dance the night away and celebrate a long journey!": [13,["Bok Choy" ]],
-            "Spend some alone time at your favorite cozy bench/spot. You desperately need this fr": [13,["Potato"]],
-            "Organize a Welcome Back Picnic with freshly harvested canonical fruits to inform your veggie community what happened": [13,["Kale"]],
-            "Pick a different hangout place with your friends and debrief what happened and simply enjoy their company": [13,["Sweet Potato"]]
+            "Wait...was that an alien?": [13,["Bok Choy" ]],
+            "Cry. That was a lot to go through": [13,["Potato"]],
+            "Celebrate with your friends!": [13,["Kale"]],
+            "Take a breather somewhere secluded": [13,["Sweet Potato"]]
         }
     },
     "4":{
-        "text": "You're in the breezy broccoli bookstore filled with books of all genres. What catches your eye first?",
+        "text": "So many books to choose from! What catches your eye first?",
         "choices" : {
             "A whimsical heartwarming children's book.": [15,["Corn", "Sweet Potato"]],
-            "Classic vegetable literature, like the Great Gourdsby": [15,["Broccoli"]],
-            "Thrilling mystery novel like Sherlettuce Holmes": [15,["Okra", "Carrot"]],
+            "The Great Gourdsby, classic literature": [15,["Broccoli"]],
+            "Sherlettuce Holmes, a thrilling mystery novel": [15,["Okra", "Carrot"]],
             "A self help book": [15, ["Onion"]]
         }
     },
@@ -127,13 +171,18 @@ const gameData = {
         }
     },
     "16":{
-       "text": "Feeling satisfied and content, you bid farewell to the cozy atmosphere of the bookstore and step outside into the cool evening air. However, as you make your way through the bustling streets of the town, a sudden gust of wind picks up, swirling around you with an unexpected force. Before you can react, you feel yourselves being lifted off the ground, carried away by the wind's mysterious energy.",
+       "text": "As you leave the bookstore, an insurmountable gust of wind lifts you up. \
+        Everyone is buffeted in a vortex up and up...",
        "choices":{
-            "Continue": [17,[]]
+            "Goodbye everyone it was nice knowing you": [17,[]],
+            "Error 404 veggie brain is in a state of panic": [17, []],
+            "Everyone try holding hands!": [17,[]],
+            "Weeee!": [17,[]],
        } 
     },
     "17": {
-        "text": "The world around becomes pitch black, you feel strong gusts of wind wrap around you. When they stop, you still feel a light chilly breeze. All signs point to you and your friends being in a refrigerator. You need to get out ASAP before you get eaten!",
+        "text": "The whirlwind finally stops! You still feel a sharp chilly breeze...\
+        because you're trapped in a human's refrigerator! Get out ASAP before you get eaten!",
         "choices":{
             "Hide and wait for the refrigerator door to open": [18,["Broccoli"]],
             "Rally the veggie friends to push the door. Everyone roll out!": [18,["Jalapeno", "Bok Choy"]],
@@ -142,7 +191,8 @@ const gameData = {
         }
     },
     "18": {
-        "text": "Miraculously, you made it out the fridge, but now you need to get out of the house back to VeggieLand! What's next?",
+        "text": "Miraculously, you made it out the fridge, but now you need to get out \
+                of the house back to VeggieLand! What's next?",
         "choices": {
             "Hop on the dog's back!": [19,["Jalapeno"]],
             "Stealth your way to the front door": [19, ["Broccoli"]],
@@ -150,7 +200,8 @@ const gameData = {
         }
     },
     "19": {
-        "text": "As you make your last leap, you're transported to CheeseLand. See you rivers of fondue, swiss cheese caves, and rosemary fields. You know there is a Cheese Castle and its Cheese city. What's your move?",
+        "text": "As you make your last leap, you're transported to CheeseLand, land of fondue rivers, \
+            , swiss cheese caves, and rosemary fields. What's your next move?",
         "choices": {
             "Make a charcuterie board as a snack break": [20, ["Onion"]],
             "Go inland in search of the Cheese City": [20,["Okra"]],
@@ -158,14 +209,18 @@ const gameData = {
         }
     },
     "20":{
-        "text": "As you gather materials for the charcuterie board, a moustache bearing gouda cheese yells, \"What are you doing? This is this sacred cheese you are scavenging on!\"",
+        "text": "As you construct the charcuterie board, a moustache \
+                bearing gouda cheese yells, \"What are you doing? This is this \
+                sacred cheese you're scavenging on!\"",
         "choices" : {
             "You want some? Offer them some of your charcuterie board": [21,[ ["Onion", "Potato"]]],
             "Apologize immediately, ask if he knows how to get to the Cheese Castle":[21, ["Sweet Potato"]]
         }
     },
     "21": {
-        "text": "The gouda tries a little bit of everything. He seems to like it but is shy about it. \"Fine! Follow me.\" You arrive at the main castle hall. However, the Cheese king needs to be entertained in order to see visitors.",
+        "text": "The gouda tries a little bit of everything. He seems to like it \
+        but is shy about it. \"Fine! Follow me.\" You arrive at the main castle hall. \
+        However, the Cheese king needs to be entertained in order to see visitors.",
         "choices":{
             "Sing and dance the cheese anthem": [22,["Bok Choy", "Napa Cabbage"]],
             "Offer some leftover charcuterie to the king": [22,["Jalapeno", "Potato"]],
@@ -217,12 +272,12 @@ const gameData = {
         }
     },
     "27": {
-        "text": "After your long cheese raft journey, you finally arrive home in VeggieLand. What are you doing first?",
+        "text": "After your cheese raft journey, you finally arrive home in VeggieLand. What are you doing first?",
         "choices": {
-            "Go partying at Club Carrot. Dance the night away and celebrate a long journey!": [13,["Jalapeno"]],
-            "Spend some alone time at your favorite cozy bench/spot. You desperately need this fr": [13,["Sweet Potato"]],
-            "Organize a Welcome Back Picnic with freshly harvested canonical fruits to inform your veggie community what happened": [13,["Corn", "Green Beans"]],
-            "Pick a different hangout place with your friends and debrief what happened and simply enjoy their company": [13,["Sweet Potato"]]
+            "Go partying at Club Carrot. Dance the night away!": [13,["Jalapeno"]],
+            "Spend some alone time at your favorite cozy bench/spot.": [13,["Sweet Potato"]],
+            "Organize a Welcome Back Picnic to inform your veggie community what happened": [13,["Corn", "Green Beans"]],
+            "Break down what just happened with your friends": [13,["Sweet Potato"]]
         }
     },
     "13": {
@@ -238,22 +293,31 @@ const gameData = {
         "text": "You've arrived at your friend's apartment. What are you guys gonna do?",
         "choices": {
             "Arts and crafts": [28,["Carrot"]],
-            "Drink vegetable friendly (wink wink) beverages": [28,["Pumpkin"]],
-            "Intense PVP games. Loser has to post an embarassing pic on Vegstagram": [28,["Kale"]],
+            "Drink lots of beverages (wink wink)": [28,["Pumpkin"]],
+            "Play games! Loser has to post an embarassing pic on Vegstagram": [28,["Kale"]],
             "Gossip!!!": [28, ["Sweet Potato", "Corn"]]
         }
     },
     "28": {
-        "text": "Leo the Leek goes off to get some snacks for everyone, but shortly after he leaves you a juice curdling scream from where he left to go!",
+        "text": "Leo the Leek goes off to get some snacks for everyone, but shortly \
+                after he leaves, you hear him scream!",
         "choices": {
-            "Mobilize everyone and lead them towards the scream": [29,["Broccoli", "Garlic"]],
-            "SCREAM!!!": [29, ["Pumpkin", "Bok Choy"]],
-            "Stay in the middle of the pack": [29,["Corn", "Green Beans"]],
-            "Freeze in your place until a friend shakes you out of it": [29, ["Kale", "Sweet Potato"]]
+            "SCREAM!!!": [45, ["Pumpkin", "Bok Choy"]],
+            "Leo you good?": [45,["Corn", "Green Beans"]],
+            "Oh no! Is Leo ok?": [45, ["Kale", "Sweet Potato"]]
+        }
+    },
+    "45": {
+        "text": "You don't hear a response from Leo. You should check in on him...",
+        "choices": {
+            "Mobilize everyone and proceed towards the scream": [29,["Broccoli", "Garlic"]],
+            "Stay in the middle of the pack": [29, ["Corn", "Green Beans"]],
+            "Linger in the back, you're scared": [29, ["Kale", "Sweet Potato"]]
         }
     },
     "29": {
-        "text": "You follow the noise of the scream, and you’re now at your friends room. What’s the first thing you investigate?",
+        "text": "You follow the noise of the scream, and you’re now at your friends \
+                room. What’s the first thing you investigate?",
         "choices" : {
             "Heck no I’m not investigating!": [30,["Kale"]],
             "The open window and it’s billowing curtains… it’s suspicious": [30,["Okra"]],
@@ -262,15 +326,26 @@ const gameData = {
         }
     },
     "30": {
-        "text": "As you investigate around the apartment suddenly the room turns black, and you feel an overwhelming presence swoop you and your friends away out of the window!! You’re in a grocery bag!",
+        "text": "As you investigate, the room turns dark! You feel an overwhelming \
+                presence swoop you and your friends out of the window!",
+        "choices": {
+                "Struggle against whatever it is and try to escape": [46, []],
+                "Scream for help": [46, []],
+                "Cry a little": [46, []],
+                "Am I gonna die?": [46, []]
+        }
+    },
+    "46": {
+        "text": "As light enters back into your world, you realize you’re in a grocery bag!",
         "choices" : {
             "Everyone jump! That'll break the bag right?": [31,["Jalapeno", "Garlic", "Napa Cabbage"]],
-            "Use your plant-ness to poke holes into bag": [31,["Green Beans"]],
+            "Use your plant abilities to poke holes into bag": [31,["Green Beans"]],
             "Photosynthesize extra fast, get big = break the bag": [31, ["Broccoli"]]
         }
     },
     "31": {
-        "text": "Success! You've broken free from the grocery bag. Where do you go now? The human is reaching for you!",
+        "text": "Success! You've broken free from the grocery bag. Where do you go now? \
+                The human is reaching for you!",
         "choices": {
             "Panic! There's too much going on": [32,["Sweet Potato"]],
             "Juke the human so hard they have to leave out of embarrassment": [32,["Pumpkin"]],
@@ -343,9 +418,11 @@ let currentState = 1;
 function renderState(state) {
     console.log("b");
     const storyText = document.getElementById('story-text');
+    const storyImage = document.getElementById('story-image');
     const choicesContainer = document.getElementById('choices');
 
     storyText.textContent = gameData[state].text;
+    storyImage.src = "images/placeholder.png";
     choicesContainer.innerHTML = '';
 
     for (const [choice, info] of Object.entries(gameData[state].choices)) {
