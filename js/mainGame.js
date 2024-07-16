@@ -366,19 +366,19 @@ const gameData = {
         }
     },
     "32": {
-        "text": "Everything is moving so fast, bustling feet threaten to squish you and your friends. Where to next?",
+        "text": "Everything is moving so fast, bustling feet threaten to squish \
+                you and your friends. Where to next?",
         "choices": {
             "Through the air vents": [9,["Carrot"]],
             "Mad dash through the store until you find an exit": [9, ["Jalapeno"]]
         }
     },
     "6":{
-        "text": "You and your vegetable companions have embarked on a daring \
-                expedition to climb Mount Everest. What do you do at the base camp?",
+        "text": "You and your vegetable companions casually pull up to \
+                 Mount Everest. What do you do at the base camp?",
         "choices": {
-            "Survey the Terrain and Plan the Best Route": [33, ["Kale"]],
+            "Survey the Terrain and Plan the Best Route": [33, ["Kale", "Broccoli"]],
             "Energize the Team with a Motivational Speech": [33, ["Bok Choy", "Green Beans", "Garlic"]],
-            "Double-Check Your Gear and Ensure Everything Is Secure": [33,["Broccoli"]],
             "Take a moment to appreciate the view of mount evergetable": [33, ["Carrot"]]
         }
     },
@@ -400,7 +400,7 @@ const gameData = {
         }
     },
     "36": {
-        "text": "The veggie squad continues on, until they decide to take a quick break. What are you guys doing?",
+        "text": "The veggie squad continues, but they decide to take a quick break.",
         "choices": {
             "Pause to look at the starry night": [37,["Napa Cabbage"]],
             "Just keep going, why are we stopping?": [37,["Jalapeno"]],
@@ -417,14 +417,13 @@ const gameData = {
         }
     },
     "38": {
-        "text": "You've been blown onto Cheese Land. See you rivers of fondue, \
-        swiss cheese caves, and rosemary fields. You know there is a Cheese Castle \
-        and its Cheese city. What's your move?",
+        "text": "You've been blown onto Cheese Land. You see rivers of fondue, \
+        swiss cheese caves, and rosemary fields. What's your move?",
         "choices": {
-            "Make a fancy charcuterie board as a snack break": [20,["Okra"]],
-            "Go inland in search of the Cheese City": [20,["Onion", "Napa Cabbage", "Carrot"]],
+            "Make a charcuterie board as a snack break": [20,["Okra"]],
+            "Go inland in search of Cheese City": [20,["Onion", "Napa Cabbage", "Carrot"]],
             "Ask others what they think the group should do": [20,["Broccoli", "Green beans", "Napa Cabbage"]],
-            "Lead the pack around using your knowledge of Cheese Land geography": [20,["Garlic"]]
+            "Lead the pack using your knowledge of Cheese Land geography": [20,["Garlic"]]
         }
     }
 
