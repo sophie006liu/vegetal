@@ -123,8 +123,8 @@ const gameData = {
         }
     },
     "39" : {
-        "text": "After reading through the corn rocket manual, your team \
-            has an idea for what should be next move.",
+        "text": "After reading the rocket manual, your team \
+            has an idea for what buttons to press.",
         "choices": {
             "Full send! VeggieVille here we come": [40,["Jalapeno"]],
             "We should double check...": [40, ["Broccoli"]],
@@ -138,7 +138,7 @@ const gameData = {
         What do you do?",
         "choices": {
             "It was me. I was the one that yelled": [44, ["Sweet Potato", "Green Beans"]],
-            "Re-explain the math. See? Nothing to be afraid of": [44,["Onion", "Broccoli"]],
+            "Re-explain the plan. See? Nothing to be afraid of": [44,["Onion", "Broccoli"]],
             "Stand back and let someone else handle the situation": [44, ["Potato", "Kale"]],
             "Go over and comfort them.": [44,["Green Beans", "Napa Cabbage"]]
         }
@@ -403,7 +403,7 @@ const gameData = {
         "text": "The veggie squad continues, but they decide to take a quick break.",
         "choices": {
             "Pause to look at the starry night": [37,["Napa Cabbage"]],
-            "Just keep going, why are we stopping?": [37,["Jalapeno"]],
+            "Keep going, why are we stopping?": [37,["Jalapeno"]],
             "Water and snacks! Food is fuel": [37, ["Green Beans"]],
             "Check in with everyone to see how they're doing": [37,["Broccoli", "Napa Cabbage", "Garlic"]],
         }
