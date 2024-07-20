@@ -64,7 +64,7 @@ const gameData = {
 "choices": {
             "How about we go down the hole instead?": [19, ["Napa Cabbage", "Tomato", "Potato"]],
             "Try using oil to loosen locking mechanism": [48, ["Carrot", "Broccoli", "Onion"]],
-            "Chuck kitchen utensils to break the window >:)": [50, ["Jalapeno", "Green Bean"]]
+            "Chuck kitchen utensils to break the window >:)": [55, ["Jalapeno", "Green Bean"]]
         }
     },
     "48" :{
@@ -76,7 +76,7 @@ const gameData = {
             "Um I'm scared of heights": [49, ["Potato"]]
         }
     },
-    "50" :{
+    "55" :{
         "text" : "You and your friends start hurling plates, pots, pans, \
                   and as your friend throws the last bar of soap, the window\
                   breaks open!",
@@ -214,7 +214,7 @@ const gameData = {
     "17": {
         "text": "The whirlwind stops! You feel a sharp chilly breeze...\
                  because you're trapped in a human's fridge!",
-        "image" : "images/snackies.png",
+        "image" : "images/in_fridge.png",
 "choices": {
             "Continue": [50, []]
         }
@@ -252,17 +252,17 @@ const gameData = {
     "20":{
         "text": "Mid charcuterie board making, a gouda cheese wheel yells, \
                 \"What are you doing? This is sacred cheese you're scavenging on!\"",
-        "image" : "images/snackies.png",
+        "image" : "images/mad_gouda.png",
 "choices" : {
             "You want some?": [21,[ ["Onion", "Potato"]]],
             "Apologize immediately and ask how to get to Cheese Castle":[21, ["Pumpkin", "Leek"]]
         }
     },
     "21": {
-        "text": "Gouda tries a bit of everything, and scoffs, \"It's okay. Follow me.\" \
-                At the castle, you find out the Cheese King must be entertained in order \
+        "text": "Gouda tries a bit of everything. Pleased with your tastes, \
+                he takes you to the Cheese King, who must be entertained in order \
                 to be seen.",
-        "image" : "images/snackies.png",
+        "image" : "images/cheese_castle.png",
 "choices":{
             "Sing and dance the CheeseLand anthem": [22,["Bok Choy", "Napa Cabbage"]],
             "Offer some leftover charcuterie to the king": [22,["Jalapeno", "Potato"]],
@@ -428,9 +428,8 @@ const gameData = {
         }
     },
     "6":{
-        "text": "You and your vegetable companions casually pull up to \
-                 Mount Evergetable. What do you do at the base camp?",
-        "image" : "images/snackies.png",
+        "text": "Arrived at Mount Evergetable. What do you do at the base camp?",
+        "image" : "images/base_evergetable.png",
 "choices": {
             "Survey the Terrain and Plan the Best Route": [33, ["Tomato", "Broccoli"]],
             "Energize the Team with a Motivational Speech": [33, ["Bok Choy", "Green Bean", "Garlic"]],
@@ -439,7 +438,7 @@ const gameData = {
     },
     "33": {
         "text": "As you near the summit, night falls and you have the choice to rest or keep going",
-        "image" : "images/snackies.png",
+        "image" : "images/nightfalls.png",
 "choices": {
             "Seek Shelter in a Nearby Cave": [34,["Leek", "Pumpkin"]],
             "Climb on!": [36,["Bok Choy", "Garlic"]]
@@ -448,7 +447,7 @@ const gameData = {
     "34": {
         "text": "Inside the cave, you and your friends need to figure out how to \
                  pass the night.",
-        "image" : "images/snackies.png",
+        "image" : "images/cave.png",
 "choices" : {
             "Gather resources and make a makeshift camp": [37,["Carrot"]],
             "Collectively to decide what to do": [37, ["Garlic"]],
@@ -458,11 +457,11 @@ const gameData = {
     },
     "36": {
         "text": "The veggie squad continues, but they decide to take a quick break.",
-        "image" : "images/snackies.png",
+        "image" : "images/evergetable_climb.png",
 "choices": {
-            "Pause to look at the starry night": [37,["Napa Cabbage"]],
-            "Keep going, why are we stopping?": [37,["Jalapeno"]],
-            "Water and snacks! Food is fuel": [37, ["Green Bean"]],
+            "Stargazing break!": [37,["Napa Cabbage"]],
+            "Why are we stopping?": [37,["Jalapeno"]],
+            "Snack time! Food is fuel": [37, ["Green Bean"]],
             "Check in with everyone to see how they're doing": [37,["Broccoli", "Napa Cabbage", "Garlic"]],
         }
     },
@@ -470,7 +469,7 @@ const gameData = {
         "text": "The climb continues for days. And you finally reach the top! \
         Take a look around you, you're on top of the world! Suddenly, a gust \
         of wind blows you off the mountain and you swirl and tumble until...",
-        "image" : "images/snackies.png",
+        "image" : "images/vortex.png",
 "choices" :{
             "Continue": [38,[]],
         }
@@ -478,7 +477,7 @@ const gameData = {
     "38": {
         "text": "You've been blown onto Cheese Land. You see rivers of fondue, \
         swiss cheese caves, and rosemary fields. What's your move?",
-        "image" : "images/snackies.png",
+        "image" : "images/cheeseland.png",
 "choices": {
             "Make a charcuterie board as a snack break": [20,["Leek"]],
             "Go inland in search of Cheese City": [20,["Onion", "Napa Cabbage", "Carrot"]],
