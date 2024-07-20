@@ -108,17 +108,16 @@ const gameData = {
     },
     "43" : {
         "text": "\"Umm where we are now...\" asks one of your friends. What should you guys do next?",
-        "image" : "images/snackies.png",
+        "image" : "images/space_confusion.png",
 "choices": {
-            "Pull more levers and press more buttons!": [11,["Jalapeno"]],
+            "Pull more levers and press more buttons!": [11,["Jalapeno", "Onion"]],
             "Look around for a map. There's surely one in the ship right?": [39, ["Leek"]],
-            "Stay calm, organize everyone, and discuss next steps": [39,["Garlic"]],
-            "Experiment with each lever to figure out how the ship works.": [11,["Onion"]]
+            "Organize everyone and discuss team plan": [39,["Garlic"]]
         }
     },
     "11" : {
         "text": "In your button frenzy, a glowing orb appears in the spaceship.",
-        "image" : "images/snackies.png",
+        "image" : "images/glowing_space_orb.png",
 "choices":{
             "Is this the end?": [42, ["Potato", "Napa Cabbage"]],
             "Everyone hide!": [42, ["Onion"]],
@@ -126,9 +125,9 @@ const gameData = {
         }
     },
     "42": {
-        "text": "A glowing popcorn kernel emerges and yells, \"Stop you fools! Ugh,\
+        "text": "A glowing popcorn emerges and yells, \"Stop you fools! Ugh,\
                 VeggieVille natives, so stupid. Let me take you back.\"",
-        "image" : "images/snackies.png",
+        "image" : "images/glowing_popcorn.png",
 "choices": {
             "Thanks.": [12,["Potato"]],
             "THANK YOU! You saved us":[12,["Pumpkin"]],
@@ -139,7 +138,7 @@ const gameData = {
     "39" : {
         "text": "After reading the rocket manual, your team \
             has an idea for what buttons to press.",
-        "image" : "images/snackies.png",
+        "image" : "images/spaceplan.png",
 "choices": {
             "Full send! VeggieVille here we come": [40,["Jalapeno"]],
             "We should double check...": [40, ["Broccoli"]],
@@ -148,10 +147,10 @@ const gameData = {
         }
     },
     "40": {
-        "text": "\"Here goes nothing!\" As Dave the Daikon reaches for the lever, \
-        Sally the Spinach yells \"Wait! I don't feel good about this. I'm really scared...\". \
+        "text": "\"Here goes nothing!\" As Link the Leek reaches for the lever, \
+        Oli Onion Leek yells \"Wait! I don't feel good about this. I'm really scared...\". \
         What do you do?",
-        "image" : "images/snackies.png",
+        "image" : "images/pull_lever.png",
 "choices": {
             "It was me. I was the one that yelled": [44, ["Pumpkin", "Green Bean"]],
             "Re-explain the plan. See? Nothing to be afraid of": [44,["Onion", "Broccoli"]],
@@ -163,7 +162,7 @@ const gameData = {
         "text": "At last, you all pull the lever together and blast off! \
             The rocket slows down, and the corn husk doors release. \
             You're back in VeggieVille!",
-        "image" : "images/snackies.png",
+        "image" : "images/backhome.png",
 "choices": {
             "Time to hit up Club Carrot! I need to let loose": [13, ["Bok Choy"]],
             "Go to your favorite spot to unwind by yourself": [13, ["Potato"]],
@@ -174,7 +173,7 @@ const gameData = {
     "12" : {
         "text": "The kernel does a magical twirl, and a pop! \
                 You find yourself back in VeggieVille. What do you do now?",
-        "image" : "images/snackies.png",
+        "image" : "images/backhome.png",
 "choices": {
             "Wait...was that an alien?": [13,["Bok Choy" ]],
             "Cry. That was a lot to go through": [13,["Potato"]],
@@ -184,7 +183,7 @@ const gameData = {
     },
     "4":{
         "text": "So many books to choose from! What catches your eye first?",
-        "image" : "images/snackies.png",
+        "image" : "images/which_book.png",
 "choices" : {
             "A whimsical heartwarming children's book.": [15,["Napa Cabbage", "Pumpkin"]],
             "The Great Gourdsby, classic literature": [15,["Broccoli"]],
@@ -194,7 +193,7 @@ const gameData = {
     },
     "15" :{
         "text": "There are a couple of events going on today at the book store! Which do you go to?",
-        "image" : "images/snackies.png",
+        "image" : "images/bookstore_activities.png",
 "choices" : {
             "Join a book club discussion on the hottest new book": [16,["Green Bean"]],
             "Book scavenger hunt around the store for a free prize":[16,["Jalapeno", "Leek"]],
@@ -204,7 +203,7 @@ const gameData = {
     "16":{
        "text": "As you leave the bookstore, an insurmountable gust of wind lifts you up. \
         Everyone is buffeted in a vortex up and up...",
-        "image" : "images/snackies.png",
+        "image" : "images/vortex.png",
 "choices":{
             "Goodbye everyone it was nice knowing you": [17,["Potato","Green Bean"]],
             "Error 404 veggie brain is in a state of panic": [17, ["Napa Cabbage", "Tomato"]],
@@ -222,7 +221,7 @@ const gameData = {
     },
     "50": {
         "text": "Get out ASAP before you get eaten!",
-        "image" : "images/snackies.png",
+        "image" : "images/in_fridge.png",
 "choices":{
             "Hide and wait for the refrigerator door to open": [18,["Broccoli"]],
             "Rally the veggie friends to push the door. Roll out!": [18,["Jalapeno", "Bok Choy"]],
@@ -232,18 +231,18 @@ const gameData = {
     },
     "18": {
         "text": "Miraculously, you made it out the fridge, but now you need to get out \
-                of the house back to VeggieLand! What's next?",
-        "image" : "images/snackies.png",
+                of the house! What's next?",
+        "image" : "images/out_fridge.png",
 "choices": {
             "Hop on the dog's back!": [19,["Jalapeno"]],
             "Stealth your way to the front door": [19, ["Tomato", "Leek"]],
-            "Jump out the nearby window! The sky looks pretty anyways": [9, ["Onion", "Bok Choy"]]
+            "Jump out the nearby window!": [9, ["Onion", "Bok Choy"]]
         }
     },
     "19": {
         "text": "As you cross the door step, you're transported to CheeseLand, land of fondue rivers and \
             swiss cheese caves. What's your next move?",
-        "image" : "images/snackies.png",
+        "image" : "images/cheeseland.png",
 "choices": {
             "Make a charcuterie board as a snack break": [20, ["Onion"]],
             "Go inland in search of the Cheese Castle": [20,["Leek"]],
@@ -331,7 +330,7 @@ const gameData = {
     },
     "27": {
         "text": "After your pit stop, you finally arrive home in VeggieLand. What are you doing first?",
-        "image" : "images/snackies.png",
+        "image" : "images/backhome.png",
 "choices": {
             "Go partying at Club Carrot. Dance the night away!": [13,["Jalapeno"]],
             "Spend some alone time at your favorite cozy bench/spot.": [13,["Pumpkin"]],
@@ -392,7 +391,7 @@ const gameData = {
     "30": {
         "text": "As you investigate, the room turns dark! You feel an overwhelming \
                 presence swoop you and your friends out of the window!",
-        "image" : "images/snackies.png",
+        "image" : "images/beach_disaster.png",
 "choices": {
                 "Struggle against whatever it is and try to escape": [46, ["Onion"]],
                 "Scream for help": [46, ["Garlic"]],
@@ -505,7 +504,7 @@ const personalities = {
     "Leek": 0 // The Investigator
 };
 
-let currentState = 49;
+let currentState = 1;
 
 function renderState(state) {
     console.log("b");
