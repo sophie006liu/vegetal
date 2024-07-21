@@ -275,7 +275,7 @@ const gameData = {
 "choices": {
             "Keep going, the show must go on!": [51,["Bok Choy", "Garlic"]],
             "Guy's I'm not sure if this is working": [51, ["Tomato", "Leek"]],
-            "Try to ignore the king and power through": [51, "Napa Cabbage"]
+            "Try to ignore the king and power through": [51, ["Napa Cabbage"]]
         }
     },
     "51": {
