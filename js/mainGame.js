@@ -254,7 +254,7 @@ const gameData = {
                 \"What are you doing? This is sacred cheese you're scavenging on!\"",
         "image" : "images/mad_gouda.png",
 "choices" : {
-            "You want some?": [21,[ ["Onion", "Potato"]]],
+            "You want some?": [21,["Onion", "Potato"]],
             "Apologize immediately and ask how to get to Cheese Castle":[21, ["Pumpkin", "Leek"]]
         }
     },
@@ -271,7 +271,7 @@ const gameData = {
     },
     "22": {
         "text": "The Cheese King laughs, but you're not sure if he's laughing with you or at you...",
-        "image" : "images/snackies.png",
+        "image" : "images/performance.png",
 "choices": {
             "Keep going, the show must go on!": [51,["Bok Choy", "Garlic"]],
             "Guy's I'm not sure if this is working": [51, ["Tomato", "Leek"]],
@@ -281,7 +281,7 @@ const gameData = {
     "51": {
         "text": "He chuckles, \"I see you desire to return to VeggieLand. Tell me, \
         what do you miss the most about home?",
-        "image" : "images/snackies.png",
+        "image" : "images/happy_king.png",
 "choices": {
             "The warm sunlight and fresh air": [23,"Jalapeno", "Potato", "Napa Cabbage"],
             "The hanging out with your veggie friends": [23,["Leek", "Green Bean"]],
@@ -292,7 +292,7 @@ const gameData = {
     "23": {
         "text": "\"Very well. I will send you on a guided all-expensed boat to back home.\" \
                     Where do you guys want to visit on the way back?",
-        "image" : "images/snackies.png",
+        "image" : "images/boat.png",
 "choices":{
             "Mushroom Island, known for pioneering mushroom tech": [24,["Tomato", "Onion"]],
             "Dandelion Plains, known for its sunshine and farms": [25,["Potato", "Napa Cabbage"]],
@@ -301,7 +301,7 @@ const gameData = {
     },
     "24": {
         "text": "Arrived at Mushroom Island! What are you gonna do?",
-        "image" : "images/snackies.png",
+        "image" : "images/mushroom.png",
 "choices" :{
             "Get a new mushroom telephone, its got wider coverage with its latest spore dispersion technology": [27,["Tomato"]],
             "Party on da MushrooSoft roof, they're debuting their latest vehicle, the Vroomie Schroomie": [27,["Bok Choy"]],
@@ -311,7 +311,7 @@ const gameData = {
     },
     "25": {
         "text": "Arrived at Dandelion Plains! What are you gonna do?",
-        "image" : "images/snackies.png",
+        "image" : "images/dandelion.png",
 "choices": {
             "Make dandelion crowns with friends": [27,["Green Bean", "Carrot", "Bok Choy"]],
             "Buy some dandelion honey to gift to your cheese navigator and cheese king": [27,["Napa Cabbage", "Onion"]],
@@ -320,7 +320,7 @@ const gameData = {
     },
     "26": {
         "text": "Arrived at Forget-Me-Not Island! What are you gonna do?",
-        "image" : "images/snackies.png",
+        "image" : "images/forgetmenot.png",
 "choices": {
             "Explore the island to make the first-ever forget me not island map!": [27,["Tomato", "Leek"]],
             "Paint the views of the island to share with VeggieVille": [27,["Napa Cabbage"]],
@@ -340,7 +340,7 @@ const gameData = {
     },
     "13": {
         "text": "Last question! After a night of good rest, the next morning you :",
-        "image" : "images/snackies.png",
+        "image" : "images/another_day.png",
 "choices" : {
             "Go to a cafe to finally read that book": [0,["Napa Cabbage", "Potato"]],
             "Head to work, get that bag": [0,["Garlic", "Leek"]],
@@ -350,7 +350,7 @@ const gameData = {
     },
     "5":{
         "text": "You've arrived at your friend's apartment. What are you guys gonna do?",
-        "image" : "images/snackies.png",
+        "image" : "images/at_apartment.png",
 "choices": {
             "Arts and crafts": [28,["Carrot"]],
             "Drink lots of beverages (wink wink)": [28,["Bok Choy"]],
@@ -361,7 +361,7 @@ const gameData = {
     "28": {
         "text": "Leo the Leek goes off to get some snacks for everyone, but shortly \
                 after he leaves, you hear him scream!",
-        "image" : "images/snackies.png",
+        "image" : "images/apartment.png",
 "choices": {
             "SCREAM!!!": [45, ["Bok Choy"]],
             "Leo you good?": [45,["Green Bean", "Garlic"]],
@@ -370,7 +370,7 @@ const gameData = {
     },
     "45": {
         "text": "You don't hear a response from Leo. You should check in on him...",
-        "image" : "images/snackies.png",
+        "image" : "images/no_response.png",
 "choices": {
             "Mobilize everyone and proceed towards the scream": [29,["Broccoli", "Garlic"]],
             "Stay in the middle of the pack": [29, ["Napa Cabbage", "Green Bean"]],
@@ -380,7 +380,7 @@ const gameData = {
     "29": {
         "text": "You follow the noise of the scream, and you’re now at your friends \
                 room. What’s the first thing you investigate?",
-        "image" : "images/snackies.png",
+        "image" : "images/room.png",
 "choices" : {
             "Heck no I’m not investigating!": [30,["Tomato"]],
             "The open window and it’s billowing curtains… it’s suspicious": [30,["Leek"]],
@@ -401,7 +401,7 @@ const gameData = {
     },
     "46": {
         "text": "As light enters back into your world, you realize you’re in a grocery bag!",
-        "image" : "images/snackies.png",
+        "image" : "images/grocery_bag.png",
 "choices" : {
             "Everyone jump! That'll break the bag right?": [31,["Garlic", "Onion"]],
             "Use your plant abilities to poke holes into bag": [31,["Green Bean"]],
@@ -419,8 +419,7 @@ const gameData = {
         }
     },
     "32": {
-        "text": "Everything is moving so fast, bustling feet threaten to squish \
-                you and your friends. Where to next?",
+        "text": "You've found a temporary hiding place under a shelf. Where to next?",
         "image" : "images/snackies.png",
 "choices": {
             "Through the air vents": [9,["Carrot"]],
@@ -503,7 +502,7 @@ const personalities = {
     "Leek": 0 // The Investigator
 };
 
-let currentState = 1;
+let currentState = 25;
 
 function renderState(state) {
     console.log("b");
