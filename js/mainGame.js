@@ -411,7 +411,7 @@ const gameData = {
     "31": {
         "text": "Success! You've broken free from the grocery bag. Where do you go now? \
                 The human is reaching for you!",
-        "image" : "images/grocery_bag.png",
+        "image" : "images/grocery_bag_out.png",
 "choices": {
             "Panic! There's too much going on": [32,["Pumpkin"]],
             "Juke the human so hard they have to leave out of embarrassment": [32,["Carrot", "Bok Choy"]],
