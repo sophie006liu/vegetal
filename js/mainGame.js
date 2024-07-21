@@ -88,7 +88,7 @@ const gameData = {
                 }
     },
     "49" :{    
-        "text": "Stepping through the window transports you to the Corn Cosmos,\
+        "text": "Stepping through the exit,transports you to the Corn Cosmos,\
                 and you're now in a corn rocket floating in space!\
                 What gadget are you going to tinker with to get back home?",
         "image" : "images/corn_space.png",
@@ -422,8 +422,8 @@ const gameData = {
         "text": "You've found a temporary hiding place under a shelf. Where to next?",
         "image" : "images/hiding.png",
 "choices": {
-            "Through the air vents": [9,["Carrot"]],
-            "Mad dash through the store until you find an exit": [9, ["Jalapeno"]]
+            "Through the air vents": [49,["Carrot"]],
+            "Mad dash through the store until you find an exit": [49, ["Jalapeno"]]
         }
     },
     "6":{
