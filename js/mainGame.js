@@ -251,7 +251,7 @@ const gameData = {
     },
     "20":{
         "text": "Mid charcuterie board making, a gouda cheese wheel yells, \
-                \"What are you doing? This is sacred cheese you're scavenging on!\"",
+                \"What are you doing? This is sacred cheese you're eating!\"",
         "image" : "images/mad_gouda.png",
 "choices" : {
             "You want some?": [21,["Onion", "Potato"]],
@@ -259,9 +259,9 @@ const gameData = {
         }
     },
     "21": {
-        "text": "Gouda tries a bit of everything. Pleased with your tastes, \
-                he takes you to the Cheese King, who must be entertained in order \
-                to be seen.",
+        "text": "Gouda immediately takes you to the Cheese King, hoping your group \
+                leaves as soon as possible. However, the king must be \
+                must be entertained in order to be seen.",
         "image" : "images/cheese_castle.png",
 "choices":{
             "Sing and dance the CheeseLand anthem": [22,["Bok Choy", "Napa Cabbage"]],
@@ -502,7 +502,7 @@ const personalities = {
     "Leek": 0 // The Investigator
 };
 
-let currentState = 1;
+let currentState = 21;
 
 function renderState(state) {
     // console.log("b");
@@ -510,8 +510,8 @@ function renderState(state) {
     const storyImage = document.getElementById('story-image');
     const choicesContainer = document.getElementById('choices');
 
-    storyText.textContent = gameData[state].text;
     storyImage.src = gameData[state].image;
+    storyText.textContent = gameData[state].text;
     choicesContainer.innerHTML = '';
 
     for (const [choice, info] of Object.entries(gameData[state].choices)) {
