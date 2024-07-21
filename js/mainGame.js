@@ -502,7 +502,7 @@ const personalities = {
     "Leek": 0 // The Investigator
 };
 
-let currentState = 21;
+let currentState = 1;
 
 function renderState(state) {
     // console.log("b");
