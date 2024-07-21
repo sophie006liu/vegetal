@@ -127,9 +127,6 @@ Broccoli
 	Check in with everyone to see how they're doing
 	You've been blown onto Cheese Land. You see rivers of fondue,         swiss cheese caves, and rosemary fields. What's your move?
 	Ask others what they think the group should do
-Sage
-	You and your veggie friends want to hangout in VeggieVille. What snacks are you bringing?
-	Granola
 Pumpkin
 	You and your veggie friends want to hangout in VeggieVille. What snacks are you bringing?
 	Granola
@@ -523,6 +520,4 @@ Garlic
 	Check in with everyone to see how they're doing
 	You've been blown onto Cheese Land. You see rivers of fondue,         swiss cheese caves, and rosemary fields. What's your move?
 	Lead the pack using your knowledge of Cheese Land geography
-Bitter mellon
-	The sun feels so nice, everyone is having a blast! You start to think: 
-	This is fun, I'm grateful for my friends
+

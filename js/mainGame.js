@@ -4,7 +4,7 @@ const gameData = {
         "image" : "smaller_images/snackies.png",
 "choices": {
             "Beef sticks": [2,["Jalapeno","Bok Choy"]],
-            "Granola": [2,["Broccoli", "Sage", "Pumpkin"]],
+            "Granola": [2,["Broccoli", "Garlic", "Pumpkin"]],
             "Cucumbers and carrots": [2,["Potato", "Leek"]],
             "Crackers and cheese": [2, ["Green Bean", "Carrot"]]
         }
@@ -33,7 +33,7 @@ const gameData = {
         "text": "The sun feels so nice, everyone is having a blast! You start to think: ",
         "image" : "smaller_images/having_beach_fun.png",
 "choices": {
-            "This is fun, I'm grateful for my friends": [7,["Garlic", "Bitter mellon"]],
+            "This is fun, I'm grateful for my friends": [7,["Garlic", "Napa Cabbage"]],
             "This shell is so funky lol": [7,["Green Bean", "Bok Choy", "Pumpkin"]],
             "Love my friends, but I wanna go home": [7,["Leek", "Carrot"]],
             "What if we all went scuba diving": [7,["Broccoli", "Tomato"]],
