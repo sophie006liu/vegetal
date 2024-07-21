@@ -283,7 +283,7 @@ const gameData = {
         what do you miss the most about home?",
         "image" : "images/happy_king.png",
 "choices": {
-            "The warm sunlight and fresh air": [23,"Jalapeno", "Potato", "Napa Cabbage"],
+            "The warm sunlight and fresh air": [23,["Jalapeno", "Potato", "Napa Cabbage"]],
             "The hanging out with your veggie friends": [23,["Leek", "Green Bean"]],
             "The smell of your grandma's cherry pies": [23,["Pumpkin"]],
             "Weekly cricket games at the park": [23,["Bok Choy"]]
@@ -305,7 +305,7 @@ const gameData = {
 "choices" :{
             "Get a new mushroom telephone, its got wider coverage with its latest spore dispersion technology": [27,["Tomato"]],
             "Party on da MushrooSoft roof, they're debuting their latest vehicle, the Vroomie Schroomie": [27,["Bok Choy"]],
-            "Buy a little mushroom keepsake for you and your friends": [27, "Napa Cabbage", "Green Bean"],
+            "Buy a little mushroom keepsake for you and your friends": [27, ["Napa Cabbage", "Green Bean"]],
             "I just wanna go back home tbh": [27, ["Potato", "Garlic"]]
         }
     },
