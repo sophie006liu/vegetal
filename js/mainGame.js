@@ -411,7 +411,7 @@ const gameData = {
     "31": {
         "text": "Success! You've broken free from the grocery bag. Where do you go now? \
                 The human is reaching for you!",
-        "image" : "images/snackies.png",
+        "image" : "images/grocery_bag.png",
 "choices": {
             "Panic! There's too much going on": [32,["Pumpkin"]],
             "Juke the human so hard they have to leave out of embarrassment": [32,["Carrot", "Bok Choy"]],
@@ -420,7 +420,7 @@ const gameData = {
     },
     "32": {
         "text": "You've found a temporary hiding place under a shelf. Where to next?",
-        "image" : "images/snackies.png",
+        "image" : "images/hiding.png",
 "choices": {
             "Through the air vents": [9,["Carrot"]],
             "Mad dash through the store until you find an exit": [9, ["Jalapeno"]]
@@ -502,10 +502,10 @@ const personalities = {
     "Leek": 0 // The Investigator
 };
 
-let currentState = 25;
+let currentState = 1;
 
 function renderState(state) {
-    console.log("b");
+    // console.log("b");
     const storyText = document.getElementById('story-text');
     const storyImage = document.getElementById('story-image');
     const choicesContainer = document.getElementById('choices');
@@ -525,7 +525,7 @@ function renderState(state) {
 }
 
 function changeState(newState, selectedPersonalities) { 
-    console.log(personalities); 
+    // console.log(personalities); 
     selectedPersonalities.forEach(personality => {
         personalities[personality]++;
     });
@@ -540,7 +540,7 @@ function changeState(newState, selectedPersonalities) {
 }
 
 function revealMostSelectedVegetable() {
-    console.log("calculating fate");
+    // console.log("calculating fate");
     let maxCount = 0;
     let maxVeggie = '';
 
@@ -550,9 +550,10 @@ function revealMostSelectedVegetable() {
             maxVeggie = vegetable;
         }
     }
-    console.log(maxVeggie);
+    // console.log(maxVeggie);
     const storyText = document.getElementById('story-text');
-    storyText.textContent = `You are a ${maxVeggie}`;
+    storyText.textContent = `Thank you for play testing`;
+    // storyText.textContent = `You are a ${maxVeggie}`;
     document.getElementById('choices').style.display = 'none';
 }
 
