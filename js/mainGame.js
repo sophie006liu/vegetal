@@ -505,24 +505,29 @@ const personalities = {
 let currentState = 1;
 
 function renderState(state) {
-    // console.log("b");
     const storyText = document.getElementById('story-text');
     const storyImage = document.getElementById('story-image');
     const choicesContainer = document.getElementById('choices');
 
-    storyImage.src = gameData[state].image;
-    storyText.textContent = gameData[state].text;
-    choicesContainer.innerHTML = '';
+    const img = new Image();
+    img.src = gameData[state].image;
 
-    for (const [choice, info] of Object.entries(gameData[state].choices)) {
-        const button = document.createElement('button');
-        button.textContent = choice;
-        button.className = 'choice-button';
-        let nextState = info[0];
-        button.onclick = () => changeState(nextState, info[1]); //each time you change state you update the personalities dictionary
-        choicesContainer.appendChild(button);
-    }
+    img.onload = () => {
+        storyImage.src = img.src;
+        storyText.textContent = gameData[state].text;
+        choicesContainer.innerHTML = '';
+
+        for (const [choice, info] of Object.entries(gameData[state].choices)) {
+            const button = document.createElement('button');
+            button.textContent = choice;
+            button.className = 'choice-button';
+            let nextState = info[0];
+            button.onclick = () => changeState(nextState, info[1]); //each time you change state you update the personalities dictionary
+            choicesContainer.appendChild(button);
+        }
+    };
 }
+
 
 function changeState(newState, selectedPersonalities) { 
     // console.log(personalities); 
