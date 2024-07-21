@@ -159,8 +159,8 @@ const gameData = {
         }
     },
     "44": {
-        "text": "At last, you all pull the lever together and blast off! \
-            The rocket slows down, and the corn husk doors release. \
+        "text": "At last, you all pull the lever and blast off! \
+            The rocket halts, and the corn husk doors release. \
             You're back in VeggieVille!",
         "image" : "images/backhome.png",
 "choices": {
