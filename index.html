@@ -17,7 +17,7 @@
             align-items: center;
             justify-content: center;
             font-family: 'PixelFont', sans-serif;
-            background: #f0f0f0;
+            background: #faf5e2;
         }
 
         .container {
@@ -27,7 +27,7 @@
             max-width: calc(100vh * (9 / 16));
             padding: 20px;
             border-radius: 10px;
-            background: #fff;
+            background: #e5f2d2;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
             text-align: center;
             box-sizing: border-box;
@@ -45,8 +45,8 @@
         .start-button {
             font-size: 21px;
             padding: 1vh 2vw;
-            border: 2px solid #000;
-            background-color: #fff;
+            /* border: 2px solid #fcf0c0; */
+            background-color: #f8eab6;
             cursor: pointer;
             text-decoration: none;
             margin-bottom: 3vh;
@@ -74,14 +74,16 @@
             font-family: 'PixelFont', sans-serif;
             font-size: 18px; /* Adjust font size to be smaller */
             padding: 1vh 1vw; /* Adjust padding based on viewport height and width */
-            border: 0.1px solid #00000045; /* Solid border */
-            background-color: #fff; /* White background */
+            border: 0.1px solid #f3dba7; /* Solid border */
+            background-color: #f6e9bd; /* White background */
             cursor: pointer; /* Pointer cursor on hover */
             transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
         }
 
-        .choice-button:hover {
-            background-color: #ddd; /* Slightly darker background on hover */
+        @media (hover: hover) {
+            .choice-button:hover {
+                background-color: #f3dba7; /* Slightly darker background on hover */
+            }
         }
         .choice-button:focus {
             background-color: #fff; /* Slightly darker background on hover */
