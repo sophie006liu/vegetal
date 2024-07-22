@@ -502,7 +502,7 @@ const personalities = {
     "Leek": 0 // The Investigator
 };
 
-let currentState = 44;
+let currentState = 1;
 
 function renderState(state) {
     const storyText = document.getElementById('story-text');
@@ -557,9 +557,7 @@ function revealMostSelectedVegetable() {
     const storyImage = document.getElementById('story-image');
     const text = document.getElementById('story-text');
     const choicesContainer = document.getElementById('choices');
-
-    const veggieImagePath = `smaller_images/id_cards/broccoli.png`;
-    // const veggieImagePath = `images/vegetables/${maxVeggie}.png`;
+    const veggieImagePath = `smaller_images/id_cards/${maxVeggie}.png`;
 
     // Preload the image
     const img = new Image();
