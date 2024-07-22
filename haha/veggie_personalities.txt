@@ -3,7 +3,7 @@ Jalapeno
 	Beef sticks
 	 Where are you guys going to go?
 	Mount Evergetable
-	As you and your friends regain consciousness, you realize you're                 in someone's pantry! Hurry and escape before the human eats you!
+	As you and your friends regain consciousness, you realize you're in someone's pantry! Hurry and escape before the human eats you!
 	Everyone sprint for the nearby window!
 	Shoot! The window is stuck and won't slide open!
 	Chuck kitchen utensils to break the window >:)
@@ -11,21 +11,21 @@ Jalapeno
 	Jump out the window with no hesitation. Cya!
 	"Umm where we are now..." asks one of your friends. What should you guys do next?
 	Pull more levers and press more buttons!
-	After reading the rocket manual, your team             has an idea for what buttons to press.
+	After reading the rocket manual, your team     has an idea for what buttons to press.
 	Full send! VeggieVille here we come
 	There are a couple of events going on today at the book store! Which do you go to?
 	Book scavenger hunt around the store for a free prize
-	As you leave the bookstore, an insurmountable gust of wind lifts you up.         Everyone is buffeted in a vortex up and up...
+	As you leave the bookstore, an insurmountable gust of wind lifts you up. Everyone is buffeted in a vortex up and up...
 	Weeee!
 	Get out ASAP before you get eaten!
 	Rally the veggie friends to push the door. Roll out!
-	Miraculously, you made it out the fridge, but now you need to get out                 of the house! What's next?
+	Miraculously, you made it out the fridge, but now you need to get out of the house! What's next?
 	Hop on the dog's back!
-	Gouda immediately takes you to the Cheese King, hoping your group                 leaves as soon as possible. However, the king must be                 must be entertained in order to be seen.
+	Gouda immediately takes you to the Cheese King, hoping your group leaves as soon as possible. However, the king must be must be entertained in order to be seen.
 	Offer some leftover charcuterie to the king
-	He chuckles, "I see you desire to return to VeggieLand. Tell me,         what do you miss the most about home?
+	He chuckles, "I see you desire to return to VeggieLand. Tell me, what do you miss the most about home?
 	The warm sunlight and fresh air
-	"Very well. I will send you on a guided all-expensed boat to back home."                     Where do you guys want to visit on the way back?
+	"Very well. I will send you on a guided all-expensed boat to back home."     Where do you guys want to visit on the way back?
 	Forget-Me-Not Island, largely unexplored territory
 	Arrived at Forget-Me-Not Island! What are you gonna do?
 	Have a photo shoot with your friends in the forget me nots
@@ -48,29 +48,29 @@ Bok Choy
 	Set up a beach picnic
 	The sun feels so nice, everyone is having a blast! You start to think: 
 	This shell is so funky lol
-	You and your friends start hurling plates, pots, pans,                   and as your friend throws the last bar of soap, the window                  breaks open!
+	You and your friends start hurling plates, pots, pans,   and as your friend throws the last bar of soap, the window  breaks open!
 	Woohoo! Let's go!
-	Stepping through the exit,transports you to the Corn Cosmos,                and you're now in a corn rocket floating in space!                What gadget are you going to tinker with to get back home?
+	Stepping through the exit,transports you to the Corn Cosmos,and you're now in a corn rocket floating in space!What gadget are you going to tinker with to get back home?
 	The lever that takes you into hyperspace (or whatever they call it) in the movies
 	Buckle up! Stars and green galaxies fly by as the corn rocket shoots off!
 	Please take us back *veggie fingers intensely crossed*
 	In your button frenzy, a glowing orb appears in the spaceship.
 	ALIENS!
-	At last, you all pull the lever and blast off!             The rocket halts, and the corn husk doors release.             You're back in VeggieVille!
+	At last, you all pull the lever and blast off!     The rocket halts, and the corn husk doors release.     You're back in VeggieVille!
 	Time to hit up Club Carrot! I need to let loose
-	The kernel does a magical twirl, and a pop!                 You find yourself back in VeggieVille. What do you do now?
+	The kernel does a magical twirl, and a pop! You find yourself back in VeggieVille. What do you do now?
 	Wait...was that an alien?
 	There are a couple of events going on today at the book store! Which do you go to?
 	A creative writing workshop and storytelling event
 	Get out ASAP before you get eaten!
 	Rally the veggie friends to push the door. Roll out!
-	Miraculously, you made it out the fridge, but now you need to get out                 of the house! What's next?
+	Miraculously, you made it out the fridge, but now you need to get out of the house! What's next?
 	Jump out the nearby window!
-	Gouda immediately takes you to the Cheese King, hoping your group                 leaves as soon as possible. However, the king must be                 must be entertained in order to be seen.
+	Gouda immediately takes you to the Cheese King, hoping your group leaves as soon as possible. However, the king must be must be entertained in order to be seen.
 	Sing and dance the CheeseLand anthem
 	The Cheese King laughs, but you're not sure if he's laughing with you or at you...
 	Keep going, the show must go on!
-	He chuckles, "I see you desire to return to VeggieLand. Tell me,         what do you miss the most about home?
+	He chuckles, "I see you desire to return to VeggieLand. Tell me, what do you miss the most about home?
 	Weekly cricket games at the park
 	Arrived at Mushroom Island! What are you gonna do?
 	Party on da MushrooSoft roof, they're debuting their latest vehicle, the Vroomie Schroomie
@@ -80,9 +80,9 @@ Bok Choy
 	Go on a veggie run
 	You've arrived at your friend's apartment. What are you guys gonna do?
 	Drink lots of beverages (wink wink)
-	Leo the Leek goes off to get some snacks for everyone, but shortly                 after he leaves, you hear him scream!
+	Leo the Leek goes off to get some snacks for everyone, but shortly after he leaves, you hear him scream!
 	SCREAM!!!
-	Success! You've broken free from the grocery bag. Where do you go now?                 The human is reaching for you!
+	Success! You've broken free from the grocery bag. Where do you go now? The human is reaching for you!
 	Juke the human so hard they have to leave out of embarrassment
 	Arrived at Mount Evergetable. What do you do at the base camp?
 	Energize the Team with a Motivational Speech
@@ -99,33 +99,33 @@ Broccoli
 	What if we all went scuba diving
 	Shoot! The window is stuck and won't slide open!
 	Try using oil to loosen locking mechanism
-	You and your friends start hurling plates, pots, pans,                   and as your friend throws the last bar of soap, the window                  breaks open!
+	You and your friends start hurling plates, pots, pans,   and as your friend throws the last bar of soap, the window  breaks open!
 	Go go go! The human is going to come soon
-	After reading the rocket manual, your team             has an idea for what buttons to press.
+	After reading the rocket manual, your team     has an idea for what buttons to press.
 	We should double check...
-	"Here goes nothing!" As Link the Leek reaches for the lever,         Oli Onion Leek yells "Wait! I don't feel good about this. I'm really scared...".         What do you do?
+	"Here goes nothing!" As Link the Leek reaches for the lever, Oli Onion Leek yells "Wait! I don't feel good about this. I'm really scared...". What do you do?
 	Re-explain the plan. See? Nothing to be afraid of
 	So many books to choose from! What catches your eye first?
 	The Great Gourdsby, classic literature
-	As you leave the bookstore, an insurmountable gust of wind lifts you up.         Everyone is buffeted in a vortex up and up...
+	As you leave the bookstore, an insurmountable gust of wind lifts you up. Everyone is buffeted in a vortex up and up...
 	Everyone try holding hands!
 	Get out ASAP before you get eaten!
 	Hide and wait for the refrigerator door to open
-	Gouda immediately takes you to the Cheese King, hoping your group                 leaves as soon as possible. However, the king must be                 must be entertained in order to be seen.
+	Gouda immediately takes you to the Cheese King, hoping your group leaves as soon as possible. However, the king must be must be entertained in order to be seen.
 	Comedy skit but all the punch lines are exclusively cheese puns
 	You don't hear a response from Leo. You should check in on him...
 	Mobilize everyone and proceed towards the scream
-	You follow the noise of the scream, and you’re now at your friends                 room. What’s the first thing you investigate?
+	You follow the noise of the scream, and you’re now at your friends room. What’s the first thing you investigate?
 	The closet. It looks slightly disheveled?
 	As light enters back into your world, you realize you’re in a grocery bag!
 	Photosynthesize extra fast, get big = break the bag
 	Arrived at Mount Evergetable. What do you do at the base camp?
 	Survey the Terrain and Plan the Best Route
-	Inside the cave, you and your friends need to figure out how to                  pass the night.
+	Inside the cave, you and your friends need to figure out how to  pass the night.
 	Map out next steps of the journey
 	The veggie squad continues, but they decide to take a quick break.
 	Check in with everyone to see how they're doing
-	You've been blown onto Cheese Land. You see rivers of fondue,         swiss cheese caves, and rosemary fields. What's your move?
+	You've been blown onto Cheese Land. You see rivers of fondue, swiss cheese caves, and rosemary fields. What's your move?
 	Ask others what they think the group should do
 Pumpkin
 	You and your veggie friends want to hangout in VeggieVille. What snacks are you bringing?
@@ -136,21 +136,21 @@ Pumpkin
 	Set up a beach picnic
 	The sun feels so nice, everyone is having a blast! You start to think: 
 	This shell is so funky lol
-	You and your friends start hurling plates, pots, pans,                   and as your friend throws the last bar of soap, the window                  breaks open!
+	You and your friends start hurling plates, pots, pans,   and as your friend throws the last bar of soap, the window  breaks open!
 	Woohoo! Let's go!
-	A glowing popcorn emerges and yells, "Stop you fools! Ugh,                VeggieVille natives, so stupid. Let me take you back."
+	A glowing popcorn emerges and yells, "Stop you fools! Ugh,VeggieVille natives, so stupid. Let me take you back."
 	THANK YOU! You saved us
-	"Here goes nothing!" As Link the Leek reaches for the lever,         Oli Onion Leek yells "Wait! I don't feel good about this. I'm really scared...".         What do you do?
+	"Here goes nothing!" As Link the Leek reaches for the lever, Oli Onion Leek yells "Wait! I don't feel good about this. I'm really scared...". What do you do?
 	It was me. I was the one that yelled
-	At last, you all pull the lever and blast off!             The rocket halts, and the corn husk doors release.             You're back in VeggieVille!
+	At last, you all pull the lever and blast off!     The rocket halts, and the corn husk doors release.     You're back in VeggieVille!
 	Throw up from the rocket-sickness
-	The kernel does a magical twirl, and a pop!                 You find yourself back in VeggieVille. What do you do now?
+	The kernel does a magical twirl, and a pop! You find yourself back in VeggieVille. What do you do now?
 	Take a breather somewhere secluded
 	So many books to choose from! What catches your eye first?
 	A whimsical heartwarming children's book.
-	Mid charcuterie board making, a gouda cheese wheel yells,                 "What are you doing? This is sacred cheese you're eating!"
+	Mid charcuterie board making, a gouda cheese wheel yells, "What are you doing? This is sacred cheese you're eating!"
 	Apologize immediately and ask how to get to Cheese Castle
-	He chuckles, "I see you desire to return to VeggieLand. Tell me,         what do you miss the most about home?
+	He chuckles, "I see you desire to return to VeggieLand. Tell me, what do you miss the most about home?
 	The smell of your grandma's cherry pies
 	After your pit stop, you finally arrive home in VeggieLand. What are you doing first?
 	Spend some alone time at your favorite cozy bench/spot.
@@ -160,13 +160,13 @@ Pumpkin
 	Organize a community clean up day
 	You've arrived at your friend's apartment. What are you guys gonna do?
 	Gossip!!!
-	Leo the Leek goes off to get some snacks for everyone, but shortly                 after he leaves, you hear him scream!
+	Leo the Leek goes off to get some snacks for everyone, but shortly after he leaves, you hear him scream!
 	Oh no! Is Leo ok?
 	You don't hear a response from Leo. You should check in on him...
 	Linger in the back, you're scared
-	As you investigate, the room turns dark! You feel an overwhelming                 presence swoop you and your friends out of the window!
+	As you investigate, the room turns dark! You feel an overwhelming presence swoop you and your friends out of the window!
 	Cry a little
-	Success! You've broken free from the grocery bag. Where do you go now?                 The human is reaching for you!
+	Success! You've broken free from the grocery bag. Where do you go now? The human is reaching for you!
 	Panic! There's too much going on
 	As you near the summit, night falls and you have the choice to rest or keep going
 	Seek Shelter in a Nearby Cave
@@ -175,7 +175,7 @@ Potato
 	Cucumbers and carrots
 	 Where are you guys going to go?
 	Your friend's apartment
-	As you and your friends regain consciousness, you realize you're                 in someone's pantry! Hurry and escape before the human eats you!
+	As you and your friends regain consciousness, you realize you're in someone's pantry! Hurry and escape before the human eats you!
 	How about we stealth our way out the window instead
 	Shoot! The window is stuck and won't slide open!
 	How about we go down the hole instead?
@@ -185,27 +185,27 @@ Potato
 	Please take us back *veggie fingers intensely crossed*
 	In your button frenzy, a glowing orb appears in the spaceship.
 	Is this the end?
-	A glowing popcorn emerges and yells, "Stop you fools! Ugh,                VeggieVille natives, so stupid. Let me take you back."
+	A glowing popcorn emerges and yells, "Stop you fools! Ugh,VeggieVille natives, so stupid. Let me take you back."
 	Thanks.
-	After reading the rocket manual, your team             has an idea for what buttons to press.
+	After reading the rocket manual, your team     has an idea for what buttons to press.
 	Someone else press the button, I can't do it
-	"Here goes nothing!" As Link the Leek reaches for the lever,         Oli Onion Leek yells "Wait! I don't feel good about this. I'm really scared...".         What do you do?
+	"Here goes nothing!" As Link the Leek reaches for the lever, Oli Onion Leek yells "Wait! I don't feel good about this. I'm really scared...". What do you do?
 	Stand back and let someone else handle the situation
-	At last, you all pull the lever and blast off!             The rocket halts, and the corn husk doors release.             You're back in VeggieVille!
+	At last, you all pull the lever and blast off!     The rocket halts, and the corn husk doors release.     You're back in VeggieVille!
 	Go to your favorite spot to unwind by yourself
-	The kernel does a magical twirl, and a pop!                 You find yourself back in VeggieVille. What do you do now?
+	The kernel does a magical twirl, and a pop! You find yourself back in VeggieVille. What do you do now?
 	Cry. That was a lot to go through
-	As you leave the bookstore, an insurmountable gust of wind lifts you up.         Everyone is buffeted in a vortex up and up...
+	As you leave the bookstore, an insurmountable gust of wind lifts you up. Everyone is buffeted in a vortex up and up...
 	Goodbye everyone it was nice knowing you
 	Get out ASAP before you get eaten!
 	Do what the others do
-	Mid charcuterie board making, a gouda cheese wheel yells,                 "What are you doing? This is sacred cheese you're eating!"
+	Mid charcuterie board making, a gouda cheese wheel yells, "What are you doing? This is sacred cheese you're eating!"
 	You want some?
-	Gouda immediately takes you to the Cheese King, hoping your group                 leaves as soon as possible. However, the king must be                 must be entertained in order to be seen.
+	Gouda immediately takes you to the Cheese King, hoping your group leaves as soon as possible. However, the king must be must be entertained in order to be seen.
 	Offer some leftover charcuterie to the king
-	He chuckles, "I see you desire to return to VeggieLand. Tell me,         what do you miss the most about home?
+	He chuckles, "I see you desire to return to VeggieLand. Tell me, what do you miss the most about home?
 	The warm sunlight and fresh air
-	"Very well. I will send you on a guided all-expensed boat to back home."                     Where do you guys want to visit on the way back?
+	"Very well. I will send you on a guided all-expensed boat to back home."     Where do you guys want to visit on the way back?
 	Dandelion Plains, known for its sunshine and farms
 	Arrived at Mushroom Island! What are you gonna do?
 	I just wanna go back home tbh
@@ -213,7 +213,7 @@ Potato
 	I wanna go home. What if we get stranded here, and no one can find us?
 	Last question! After a night of good rest, the next morning you :
 	Go to a cafe to finally read that book
-	As you investigate, the room turns dark! You feel an overwhelming                 presence swoop you and your friends out of the window!
+	As you investigate, the room turns dark! You feel an overwhelming presence swoop you and your friends out of the window!
 	Am I gonna die?
 Leek
 	You and your veggie friends want to hangout in VeggieVille. What snacks are you bringing?
@@ -236,17 +236,17 @@ Leek
 	Book scavenger hunt around the store for a free prize
 	Get out ASAP before you get eaten!
 	Try to unplug the refrigerator from the inside
-	Miraculously, you made it out the fridge, but now you need to get out                 of the house! What's next?
+	Miraculously, you made it out the fridge, but now you need to get out of the house! What's next?
 	Stealth your way to the front door
-	As you cross the door step, you're transported to CheeseLand, land of fondue rivers and             swiss cheese caves. What's your next move?
+	As you cross the door step, you're transported to CheeseLand, land of fondue rivers and     swiss cheese caves. What's your next move?
 	Go inland in search of the Cheese Castle
-	Mid charcuterie board making, a gouda cheese wheel yells,                 "What are you doing? This is sacred cheese you're eating!"
+	Mid charcuterie board making, a gouda cheese wheel yells, "What are you doing? This is sacred cheese you're eating!"
 	Apologize immediately and ask how to get to Cheese Castle
 	The Cheese King laughs, but you're not sure if he's laughing with you or at you...
 	Guy's I'm not sure if this is working
-	He chuckles, "I see you desire to return to VeggieLand. Tell me,         what do you miss the most about home?
+	He chuckles, "I see you desire to return to VeggieLand. Tell me, what do you miss the most about home?
 	The hanging out with your veggie friends
-	"Very well. I will send you on a guided all-expensed boat to back home."                     Where do you guys want to visit on the way back?
+	"Very well. I will send you on a guided all-expensed boat to back home."     Where do you guys want to visit on the way back?
 	Forget-Me-Not Island, largely unexplored territory
 	Arrived at Dandelion Plains! What are you gonna do?
 	Re-check the weather to make sure you'll be able to get home on as planned 
@@ -254,11 +254,11 @@ Leek
 	Explore the island to make the first-ever forget me not island map!
 	Last question! After a night of good rest, the next morning you :
 	Head to work, get that bag
-	You follow the noise of the scream, and you’re now at your friends                 room. What’s the first thing you investigate?
+	You follow the noise of the scream, and you’re now at your friends room. What’s the first thing you investigate?
 	The open window and it’s billowing curtains… it’s suspicious
 	As you near the summit, night falls and you have the choice to rest or keep going
 	Seek Shelter in a Nearby Cave
-	You've been blown onto Cheese Land. You see rivers of fondue,         swiss cheese caves, and rosemary fields. What's your move?
+	You've been blown onto Cheese Land. You see rivers of fondue, swiss cheese caves, and rosemary fields. What's your move?
 	Make a charcuterie board as a snack break
 Green Bean
 	You and your veggie friends want to hangout in VeggieVille. What snacks are you bringing?
@@ -271,19 +271,19 @@ Green Bean
 	This shell is so funky lol
 	Shoot! The window is stuck and won't slide open!
 	Chuck kitchen utensils to break the window >:)
-	You and your friends start hurling plates, pots, pans,                   and as your friend throws the last bar of soap, the window                  breaks open!
+	You and your friends start hurling plates, pots, pans,   and as your friend throws the last bar of soap, the window  breaks open!
 	Woohoo! Let's go!
-	"Here goes nothing!" As Link the Leek reaches for the lever,         Oli Onion Leek yells "Wait! I don't feel good about this. I'm really scared...".         What do you do?
+	"Here goes nothing!" As Link the Leek reaches for the lever, Oli Onion Leek yells "Wait! I don't feel good about this. I'm really scared...". What do you do?
 	It was me. I was the one that yelled
-	"Here goes nothing!" As Link the Leek reaches for the lever,         Oli Onion Leek yells "Wait! I don't feel good about this. I'm really scared...".         What do you do?
+	"Here goes nothing!" As Link the Leek reaches for the lever, Oli Onion Leek yells "Wait! I don't feel good about this. I'm really scared...". What do you do?
 	Go over and comfort them.
 	There are a couple of events going on today at the book store! Which do you go to?
 	Join a book club discussion on the hottest new book
-	As you leave the bookstore, an insurmountable gust of wind lifts you up.         Everyone is buffeted in a vortex up and up...
+	As you leave the bookstore, an insurmountable gust of wind lifts you up. Everyone is buffeted in a vortex up and up...
 	Goodbye everyone it was nice knowing you
-	As you cross the door step, you're transported to CheeseLand, land of fondue rivers and             swiss cheese caves. What's your next move?
+	As you cross the door step, you're transported to CheeseLand, land of fondue rivers and     swiss cheese caves. What's your next move?
 	Ask others what they think the group should do
-	He chuckles, "I see you desire to return to VeggieLand. Tell me,         what do you miss the most about home?
+	He chuckles, "I see you desire to return to VeggieLand. Tell me, what do you miss the most about home?
 	The hanging out with your veggie friends
 	Arrived at Mushroom Island! What are you gonna do?
 	Buy a little mushroom keepsake for you and your friends
@@ -293,7 +293,7 @@ Green Bean
 	Organize a community picnic to share your adventures
 	Last question! After a night of good rest, the next morning you :
 	Organize a community clean up day
-	Leo the Leek goes off to get some snacks for everyone, but shortly                 after he leaves, you hear him scream!
+	Leo the Leek goes off to get some snacks for everyone, but shortly after he leaves, you hear him scream!
 	Leo you good?
 	You don't hear a response from Leo. You should check in on him...
 	Stay in the middle of the pack
@@ -301,11 +301,11 @@ Green Bean
 	Use your plant abilities to poke holes into bag
 	Arrived at Mount Evergetable. What do you do at the base camp?
 	Energize the Team with a Motivational Speech
-	Inside the cave, you and your friends need to figure out how to                  pass the night.
+	Inside the cave, you and your friends need to figure out how to  pass the night.
 	Telling exciting stories and reflect on the trek so far
 	The veggie squad continues, but they decide to take a quick break.
 	Snack time! Food is fuel
-	You've been blown onto Cheese Land. You see rivers of fondue,         swiss cheese caves, and rosemary fields. What's your move?
+	You've been blown onto Cheese Land. You see rivers of fondue, swiss cheese caves, and rosemary fields. What's your move?
 	Ask others what they think the group should do
 Carrot
 	You and your veggie friends want to hangout in VeggieVille. What snacks are you bringing?
@@ -316,7 +316,7 @@ Carrot
 	Explore tide pools and collect shells
 	The sun feels so nice, everyone is having a blast! You start to think: 
 	Love my friends, but I wanna go home
-	As you and your friends regain consciousness, you realize you're                 in someone's pantry! Hurry and escape before the human eats you!
+	As you and your friends regain consciousness, you realize you're in someone's pantry! Hurry and escape before the human eats you!
 	Listen to your friend who suggests escaping through the backyard
 	Shoot! The window is stuck and won't slide open!
 	Try using oil to loosen locking mechanism
@@ -326,30 +326,30 @@ Carrot
 	Make dandelion crowns with friends
 	You've arrived at your friend's apartment. What are you guys gonna do?
 	Arts and crafts
-	Success! You've broken free from the grocery bag. Where do you go now?                 The human is reaching for you!
+	Success! You've broken free from the grocery bag. Where do you go now? The human is reaching for you!
 	Juke the human so hard they have to leave out of embarrassment
 	You've found a temporary hiding place under a shelf. Where to next?
 	Through the air vents
 	Arrived at Mount Evergetable. What do you do at the base camp?
 	Take a moment to appreciate the view of mount evergetable
-	Inside the cave, you and your friends need to figure out how to                  pass the night.
+	Inside the cave, you and your friends need to figure out how to  pass the night.
 	Gather resources and make a makeshift camp
-	You've been blown onto Cheese Land. You see rivers of fondue,         swiss cheese caves, and rosemary fields. What's your move?
+	You've been blown onto Cheese Land. You see rivers of fondue, swiss cheese caves, and rosemary fields. What's your move?
 	Go inland in search of Cheese City
 Onion
 	 Where are you guys going to go?
 	The beach
 	Shoot! The window is stuck and won't slide open!
 	Try using oil to loosen locking mechanism
-	Stepping through the exit,transports you to the Corn Cosmos,                and you're now in a corn rocket floating in space!                What gadget are you going to tinker with to get back home?
+	Stepping through the exit,transports you to the Corn Cosmos,and you're now in a corn rocket floating in space!What gadget are you going to tinker with to get back home?
 	*Methodically* type random stuff in the holographic keyboard above you
 	"Umm where we are now..." asks one of your friends. What should you guys do next?
 	Pull more levers and press more buttons!
 	In your button frenzy, a glowing orb appears in the spaceship.
 	Everyone hide!
-	A glowing popcorn emerges and yells, "Stop you fools! Ugh,                VeggieVille natives, so stupid. Let me take you back."
+	A glowing popcorn emerges and yells, "Stop you fools! Ugh,VeggieVille natives, so stupid. Let me take you back."
 	Thank you so much! But who are you?
-	"Here goes nothing!" As Link the Leek reaches for the lever,         Oli Onion Leek yells "Wait! I don't feel good about this. I'm really scared...".         What do you do?
+	"Here goes nothing!" As Link the Leek reaches for the lever, Oli Onion Leek yells "Wait! I don't feel good about this. I'm really scared...". What do you do?
 	Re-explain the plan. See? Nothing to be afraid of
 	So many books to choose from! What catches your eye first?
 	A self help book
@@ -357,23 +357,23 @@ Onion
 	A creative writing workshop and storytelling event
 	Get out ASAP before you get eaten!
 	Try to unplug the refrigerator from the inside
-	Miraculously, you made it out the fridge, but now you need to get out                 of the house! What's next?
+	Miraculously, you made it out the fridge, but now you need to get out of the house! What's next?
 	Jump out the nearby window!
-	As you cross the door step, you're transported to CheeseLand, land of fondue rivers and             swiss cheese caves. What's your next move?
+	As you cross the door step, you're transported to CheeseLand, land of fondue rivers and     swiss cheese caves. What's your next move?
 	Make a charcuterie board as a snack break
-	Mid charcuterie board making, a gouda cheese wheel yells,                 "What are you doing? This is sacred cheese you're eating!"
+	Mid charcuterie board making, a gouda cheese wheel yells, "What are you doing? This is sacred cheese you're eating!"
 	You want some?
-	Gouda immediately takes you to the Cheese King, hoping your group                 leaves as soon as possible. However, the king must be                 must be entertained in order to be seen.
+	Gouda immediately takes you to the Cheese King, hoping your group leaves as soon as possible. However, the king must be must be entertained in order to be seen.
 	Comedy skit but all the punch lines are exclusively cheese puns
-	"Very well. I will send you on a guided all-expensed boat to back home."                     Where do you guys want to visit on the way back?
+	"Very well. I will send you on a guided all-expensed boat to back home."     Where do you guys want to visit on the way back?
 	Mushroom Island, known for pioneering mushroom tech
 	Arrived at Dandelion Plains! What are you gonna do?
 	Buy some dandelion honey to gift to your cheese navigator and cheese king
-	As you investigate, the room turns dark! You feel an overwhelming                 presence swoop you and your friends out of the window!
+	As you investigate, the room turns dark! You feel an overwhelming presence swoop you and your friends out of the window!
 	Struggle against whatever it is and try to escape
 	As light enters back into your world, you realize you’re in a grocery bag!
 	Everyone jump! That'll break the bag right?
-	You've been blown onto Cheese Land. You see rivers of fondue,         swiss cheese caves, and rosemary fields. What's your move?
+	You've been blown onto Cheese Land. You see rivers of fondue, swiss cheese caves, and rosemary fields. What's your move?
 	Go inland in search of Cheese City
 Tomato
 	 Where are you guys going to go?
@@ -382,25 +382,25 @@ Tomato
 	Read the book you've been eyeing
 	The sun feels so nice, everyone is having a blast! You start to think: 
 	What if we all went scuba diving
-	As you and your friends regain consciousness, you realize you're                 in someone's pantry! Hurry and escape before the human eats you!
+	As you and your friends regain consciousness, you realize you're in someone's pantry! Hurry and escape before the human eats you!
 	How about we stealth our way out the window instead
 	Shoot! The window is stuck and won't slide open!
 	How about we go down the hole instead?
-	You and your friends start hurling plates, pots, pans,                   and as your friend throws the last bar of soap, the window                  breaks open!
+	You and your friends start hurling plates, pots, pans,   and as your friend throws the last bar of soap, the window  breaks open!
 	How did we get away with that
-	A glowing popcorn emerges and yells, "Stop you fools! Ugh,                VeggieVille natives, so stupid. Let me take you back."
+	A glowing popcorn emerges and yells, "Stop you fools! Ugh,VeggieVille natives, so stupid. Let me take you back."
 	Who are you? We can handle this ourselves
-	"Here goes nothing!" As Link the Leek reaches for the lever,         Oli Onion Leek yells "Wait! I don't feel good about this. I'm really scared...".         What do you do?
+	"Here goes nothing!" As Link the Leek reaches for the lever, Oli Onion Leek yells "Wait! I don't feel good about this. I'm really scared...". What do you do?
 	Stand back and let someone else handle the situation
-	The kernel does a magical twirl, and a pop!                 You find yourself back in VeggieVille. What do you do now?
+	The kernel does a magical twirl, and a pop! You find yourself back in VeggieVille. What do you do now?
 	Celebrate with your friends!
-	As you leave the bookstore, an insurmountable gust of wind lifts you up.         Everyone is buffeted in a vortex up and up...
+	As you leave the bookstore, an insurmountable gust of wind lifts you up. Everyone is buffeted in a vortex up and up...
 	Error 404 veggie brain is in a state of panic
-	Miraculously, you made it out the fridge, but now you need to get out                 of the house! What's next?
+	Miraculously, you made it out the fridge, but now you need to get out of the house! What's next?
 	Stealth your way to the front door
 	The Cheese King laughs, but you're not sure if he's laughing with you or at you...
 	Guy's I'm not sure if this is working
-	"Very well. I will send you on a guided all-expensed boat to back home."                     Where do you guys want to visit on the way back?
+	"Very well. I will send you on a guided all-expensed boat to back home."     Where do you guys want to visit on the way back?
 	Mushroom Island, known for pioneering mushroom tech
 	Arrived at Mushroom Island! What are you gonna do?
 	Get a new mushroom telephone, its got wider coverage with its latest spore dispersion technology
@@ -410,13 +410,13 @@ Tomato
 	Explore the island to make the first-ever forget me not island map!
 	You've arrived at your friend's apartment. What are you guys gonna do?
 	Play games! Loser has to post an embarassing pic on Vegstagram
-	Leo the Leek goes off to get some snacks for everyone, but shortly                 after he leaves, you hear him scream!
+	Leo the Leek goes off to get some snacks for everyone, but shortly after he leaves, you hear him scream!
 	Oh no! Is Leo ok?
 	You don't hear a response from Leo. You should check in on him...
 	Linger in the back, you're scared
-	You follow the noise of the scream, and you’re now at your friends                 room. What’s the first thing you investigate?
+	You follow the noise of the scream, and you’re now at your friends room. What’s the first thing you investigate?
 	Heck no I’m not investigating!
-	As you investigate, the room turns dark! You feel an overwhelming                 presence swoop you and your friends out of the window!
+	As you investigate, the room turns dark! You feel an overwhelming presence swoop you and your friends out of the window!
 	Cry a little
 	Arrived at Mount Evergetable. What do you do at the base camp?
 	Survey the Terrain and Plan the Best Route
@@ -431,23 +431,23 @@ Napa Cabbage
 	Wow. This is beautiful...
 	In your button frenzy, a glowing orb appears in the spaceship.
 	Is this the end?
-	After reading the rocket manual, your team             has an idea for what buttons to press.
+	After reading the rocket manual, your team     has an idea for what buttons to press.
 	Let's all press the button together!
-	"Here goes nothing!" As Link the Leek reaches for the lever,         Oli Onion Leek yells "Wait! I don't feel good about this. I'm really scared...".         What do you do?
+	"Here goes nothing!" As Link the Leek reaches for the lever, Oli Onion Leek yells "Wait! I don't feel good about this. I'm really scared...". What do you do?
 	Go over and comfort them.
 	So many books to choose from! What catches your eye first?
 	A whimsical heartwarming children's book.
-	As you leave the bookstore, an insurmountable gust of wind lifts you up.         Everyone is buffeted in a vortex up and up...
+	As you leave the bookstore, an insurmountable gust of wind lifts you up. Everyone is buffeted in a vortex up and up...
 	Error 404 veggie brain is in a state of panic
-	As you cross the door step, you're transported to CheeseLand, land of fondue rivers and             swiss cheese caves. What's your next move?
+	As you cross the door step, you're transported to CheeseLand, land of fondue rivers and     swiss cheese caves. What's your next move?
 	Ask others what they think the group should do
-	Gouda immediately takes you to the Cheese King, hoping your group                 leaves as soon as possible. However, the king must be                 must be entertained in order to be seen.
+	Gouda immediately takes you to the Cheese King, hoping your group leaves as soon as possible. However, the king must be must be entertained in order to be seen.
 	Sing and dance the CheeseLand anthem
 	The Cheese King laughs, but you're not sure if he's laughing with you or at you...
 	Try to ignore the king and power through
-	He chuckles, "I see you desire to return to VeggieLand. Tell me,         what do you miss the most about home?
+	He chuckles, "I see you desire to return to VeggieLand. Tell me, what do you miss the most about home?
 	The warm sunlight and fresh air
-	"Very well. I will send you on a guided all-expensed boat to back home."                     Where do you guys want to visit on the way back?
+	"Very well. I will send you on a guided all-expensed boat to back home."     Where do you guys want to visit on the way back?
 	Dandelion Plains, known for its sunshine and farms
 	Arrived at Mushroom Island! What are you gonna do?
 	Buy a little mushroom keepsake for you and your friends
@@ -463,15 +463,15 @@ Napa Cabbage
 	Gossip!!!
 	You don't hear a response from Leo. You should check in on him...
 	Stay in the middle of the pack
-	You follow the noise of the scream, and you’re now at your friends                 room. What’s the first thing you investigate?
+	You follow the noise of the scream, and you’re now at your friends room. What’s the first thing you investigate?
 	Call the veggie police!
 	The veggie squad continues, but they decide to take a quick break.
 	Stargazing break!
 	The veggie squad continues, but they decide to take a quick break.
 	Check in with everyone to see how they're doing
-	You've been blown onto Cheese Land. You see rivers of fondue,         swiss cheese caves, and rosemary fields. What's your move?
+	You've been blown onto Cheese Land. You see rivers of fondue, swiss cheese caves, and rosemary fields. What's your move?
 	Go inland in search of Cheese City
-	You've been blown onto Cheese Land. You see rivers of fondue,         swiss cheese caves, and rosemary fields. What's your move?
+	You've been blown onto Cheese Land. You see rivers of fondue, swiss cheese caves, and rosemary fields. What's your move?
 	Ask others what they think the group should do
 Garlic
 	 Where are you guys going to go?
@@ -482,7 +482,7 @@ Garlic
 	This is fun, I'm grateful for my friends
 	"Umm where we are now..." asks one of your friends. What should you guys do next?
 	Organize everyone and discuss team plan
-	At last, you all pull the lever and blast off!             The rocket halts, and the corn husk doors release.             You're back in VeggieVille!
+	At last, you all pull the lever and blast off!     The rocket halts, and the corn husk doors release.     You're back in VeggieVille!
 	Call all of VeggieVille for a picnic and to tell everyone what happened
 	The Cheese King laughs, but you're not sure if he's laughing with you or at you...
 	Keep going, the show must go on!
@@ -498,26 +498,26 @@ Garlic
 	Head to work, get that bag
 	You've arrived at your friend's apartment. What are you guys gonna do?
 	Play games! Loser has to post an embarassing pic on Vegstagram
-	Leo the Leek goes off to get some snacks for everyone, but shortly                 after he leaves, you hear him scream!
+	Leo the Leek goes off to get some snacks for everyone, but shortly after he leaves, you hear him scream!
 	Leo you good?
 	You don't hear a response from Leo. You should check in on him...
 	Mobilize everyone and proceed towards the scream
-	You follow the noise of the scream, and you’re now at your friends                 room. What’s the first thing you investigate?
+	You follow the noise of the scream, and you’re now at your friends room. What’s the first thing you investigate?
 	Call the veggie police!
-	As you investigate, the room turns dark! You feel an overwhelming                 presence swoop you and your friends out of the window!
+	As you investigate, the room turns dark! You feel an overwhelming presence swoop you and your friends out of the window!
 	Scream for help
 	As light enters back into your world, you realize you’re in a grocery bag!
 	Everyone jump! That'll break the bag right?
-	Success! You've broken free from the grocery bag. Where do you go now?                 The human is reaching for you!
+	Success! You've broken free from the grocery bag. Where do you go now? The human is reaching for you!
 	JUST RUN!!!!
 	Arrived at Mount Evergetable. What do you do at the base camp?
 	Energize the Team with a Motivational Speech
 	As you near the summit, night falls and you have the choice to rest or keep going
 	Climb on!
-	Inside the cave, you and your friends need to figure out how to                  pass the night.
+	Inside the cave, you and your friends need to figure out how to  pass the night.
 	Collectively to decide what to do
 	The veggie squad continues, but they decide to take a quick break.
 	Check in with everyone to see how they're doing
-	You've been blown onto Cheese Land. You see rivers of fondue,         swiss cheese caves, and rosemary fields. What's your move?
+	You've been blown onto Cheese Land. You see rivers of fondue, swiss cheese caves, and rosemary fields. What's your move?
 	Lead the pack using your knowledge of Cheese Land geography
 

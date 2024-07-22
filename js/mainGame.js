@@ -34,9 +34,9 @@ const gameData = {
         "image" : "smaller_images/having_beach_fun.png",
 "choices": {
             "This is fun, I'm grateful for my friends": [7,["Garlic", "Napa Cabbage"]],
-            "This shell is so funky lol": [7,["Green Bean", "Bok Choy", "Pumpkin"]],
+            "This shell is so funky lol": [7,["Green Bean", "Bok Choy", "Pumpkin", "Tomato"]],
             "Love my friends, but I wanna go home": [7,["Leek", "Carrot"]],
-            "What if we all went scuba diving": [7,["Broccoli", "Tomato"]],
+            "What if we all went scuba diving": [7,["Broccoli", "Onion"]],
         }
     },
     "7": {
@@ -413,16 +413,16 @@ const gameData = {
                 The human is reaching for you!",
         "image" : "smaller_images/grocery_bag_out.png",
 "choices": {
-            "Panic! There's too much going on": [32,["Pumpkin"]],
-            "Juke the human so hard they have to leave out of embarrassment": [32,["Carrot", "Bok Choy"]],
-            "JUST RUN!!!!": [32, ["Garlic"]]
+            "Panic! There's too much going on": [32,["Pumpkin", "Potato", "Napa Cabbage"]],
+            "Juke the human so hard they have to leave out of embarrassment": [32,["Jalapeno", "Bok Choy"]],
+            "JUST RUN!!!!": [32, ["Garlic", "Carrot", "Broccoli"]]
         }
     },
     "32": {
         "text": "You've found a temporary hiding place under a shelf. Where to next?",
         "image" : "smaller_images/hiding.png",
 "choices": {
-            "Through the air vents": [49,["Carrot"]],
+            "Through the air vents": [49,["Carrot", "Broccoli"]],
             "Mad dash through the store until you find an exit": [49, ["Jalapeno"]]
         }
     },
@@ -502,7 +502,7 @@ const personalities = {
     "Leek": 0 // The Investigator
 };
 
-let currentState = 1;
+let currentState = 44;
 
 function renderState(state) {
     const storyText = document.getElementById('story-text');
@@ -543,9 +543,7 @@ function changeState(newState, selectedPersonalities) {
         renderState(currentState);
     }
 }
-
 function revealMostSelectedVegetable() {
-    // console.log("calculating fate");
     let maxCount = 0;
     let maxVeggie = '';
 
@@ -555,12 +553,30 @@ function revealMostSelectedVegetable() {
             maxVeggie = vegetable;
         }
     }
-    // console.log(maxVeggie);
-    const storyText = document.getElementById('story-text');
-    storyText.textContent = `Thank you for play testing`;
-    // storyText.textContent = `You are a ${maxVeggie}`;
-    document.getElementById('choices').style.display = 'none';
+
+    const storyImage = document.getElementById('story-image');
+    const text = document.getElementById('story-text');
+    const choicesContainer = document.getElementById('choices');
+
+    const veggieImagePath = `smaller_images/id_cards/broccoli.png`;
+    // const veggieImagePath = `images/vegetables/${maxVeggie}.png`;
+
+    // Preload the image
+    const img = new Image();
+    img.src = veggieImagePath;
+    img.className = 'responsive-image'; 
+
+    // Once the image is loaded, update the DOM
+    img.onload = () => {
+        choicesContainer.style.display = 'none';
+        storyImage.style.display = 'none';
+    
+        text.textContent = "Drumroll... here is your Veggie ID! Don't lose it!";
+        //display image here
+        text.appendChild(img);
+    };
 }
+
 
 function startGame() {
     document.querySelector('.title').style.display = 'none';
