@@ -5,7 +5,7 @@ const gameData = {
 "choices": {
             "Beef sticks": [2,["Jalapeno","Bok Choy"]],
             "Granola": [2,["Broccoli", "Garlic", "Pumpkin"]],
-            "Cucumbers and carrots": [2,["Potato", "Leek"]],
+            "Cucumbers and carrots": [2,["Potato", "Leek", "Tomato"]],
             "Crackers and cheese": [2, ["Green Bean", "Carrot"]]
         }
     },
@@ -71,7 +71,7 @@ const gameData = {
         "text": "Sweet! The window slides open nicely!",
         "image" : "smaller_images/window_jump.png",
 "choices": {
-            "Jump out the window with no hesitation. Cya!": [49, ["Jalapeno"]],
+            "Jump out the window with no hesitation. Cya!": [49, ["Jalapeno", "Garlic"]],
             "Look for something to land on before jumping": [49,["Leek", "Tomato", "Napa Cabbage"]],
             "Um I'm scared of heights": [49, ["Potato"]]
         }
@@ -83,7 +83,7 @@ const gameData = {
         "image" : "smaller_images/breaking_window.png",
 "choices": {
                     "How did we get away with that": [49, ["Tomato"]],
-                    "Go go go! The human is going to come soon": [49, ["Broccoli"]],
+                    "Go go go! The human is going to come soon": [49, ["Broccoli", "Garlic"]],
                     "Woohoo! Let's go!": [49, ["Pumpkin", "Green Bean", "Bok Choy"]]
                 }
     },
@@ -129,10 +129,9 @@ const gameData = {
                 VeggieVille natives, so stupid. Let me take you back.\"",
         "image" : "smaller_images/glowing_popcorn.png",
 "choices": {
-            "Thanks.": [12,["Potato", "Potato","Tomato"]],
-            "THANK YOU! You saved us":[12,["Pumpkin"]],
-            "Who are you? We can handle this ourselves": [12, ["Tomato"]],
-            "Thank you so much! But who are you?": [12,["Onion"]]
+            "Thanks...": [12,["Potato"]],
+            "THANK YOU! You saved us!":[12,["Pumpkin", "Green Bean", "Jalapeno"]],
+            "Thank you so much! How can I repay you?": [12,["Onion", "Carrot"]]
         }
     },
     "39" : {
@@ -141,7 +140,7 @@ const gameData = {
         "image" : "smaller_images/spaceplan.png",
 "choices": {
             "Full send! VeggieVille here we come": [40,["Jalapeno", "Green Bean"]],
-            "We should double check...": [40, ["Broccoli"]],
+            "We should double check...": [40, ["Broccoli", "Carrot"]],
             "Someone else press the button, I can't do it": [40, ["Potato"] ],
             "Let's all press the button together!": [40, ["Napa Cabbage", "Green Bean"]]
         }
@@ -152,7 +151,7 @@ const gameData = {
         What do you do?",
         "image" : "smaller_images/pull_lever.png",
 "choices": {
-            "It was me. I was the one that yelled": [44, ["Pumpkin", "Green Bean"]],
+            "It was me. I was the one that yelled": [44, ["Pumpkin", "Green Bean", "Carrot"]],
             "Re-explain the plan. See? Nothing to be afraid of": [44,["Onion", "Broccoli"]],
             "Stand back and let someone else handle the situation": [44, ["Potato", "Tomato"]],
             "Go over and comfort them.": [44,["Green Bean", "Napa Cabbage"]]
@@ -164,7 +163,7 @@ const gameData = {
             You're back in VeggieVille!",
         "image" : "smaller_images/backhome.png",
 "choices": {
-            "Time to hit up Club Carrot! I need to let loose": [13, ["Bok Choy"]],
+            "Time to hit up Club Carrot! I need to let loose": [13, ["Bok Choy", "Jalapeno"]],
             "Go to your favorite spot to unwind by yourself": [13, ["Potato"]],
             "Call all of VeggieVille for a picnic and to tell everyone what happened": [13, ["Garlic"]],
             "Throw up from the rocket-sickness": [13, ["Pumpkin"]]
@@ -175,17 +174,17 @@ const gameData = {
                 You find yourself back in VeggieVille. What do you do now?",
         "image" : "smaller_images/backhome.png",
 "choices": {
-            "Wait...was that an alien?": [13,["Bok Choy" ]],
-            "Cry. That was a lot to go through": [13,["Potato"]],
-            "Celebrate with your friends!": [13,["Tomato"]],
-            "Take a breather somewhere secluded": [13,["Pumpkin"]]
+            "Wait...was that an alien?": [13,["Bok Choy", "Leek" ]],
+            "Cry. That was a lot to go through": [13,["Napa Cabbage"]],
+            "Celebrate with your friends!": [13,["Tomato", "Jalapeno", "Carrot"]],
+            "Take a breather somewhere secluded": [13,["Pumpkin", "Leek"]]
         }
     },
     "4":{
         "text": "So many books to choose from! What catches your eye first?",
         "image" : "smaller_images/which_book.png",
 "choices" : {
-            "A whimsical heartwarming children's book.": [15,["Napa Cabbage", "Pumpkin"]],
+            "A whimsical heartwarming slice of life novel.": [15,["Napa Cabbage", "Pumpkin"]],
             "The Great Gourdsby, classic literature": [15,["Broccoli"]],
             "Sherlettuce Holmes, a thrilling mystery novel": [15,["Leek", "Carrot"]],
             "A self help book": [15, ["Onion"]]
@@ -195,9 +194,9 @@ const gameData = {
         "text": "There are a couple of events going on today at the book store! Which do you go to?",
         "image" : "smaller_images/bookstore_activities.png",
 "choices" : {
-            "Join a book club discussion on the hottest new book": [16,["Green Bean"]],
+            "Join a book club discussion on the hottest new book": [16,["Green Bean", "Pumpkin"]],
             "Book scavenger hunt around the store for a free prize":[16,["Jalapeno", "Leek"]],
-            "A creative writing workshop and storytelling event":[16, ["Onion", "Bok Choy"]]     
+            "A creative writing workshop and storytelling event":[16, ["Onion", "Bok Choy", "Carrot"]]     
         }
     },
     "16":{
@@ -205,10 +204,10 @@ const gameData = {
         Everyone is buffeted in a vortex up and up...",
         "image" : "smaller_images/vortex.png",
 "choices":{
-            "Goodbye everyone it was nice knowing you": [17,["Potato","Green Bean"]],
-            "Error 404 veggie brain is in a state of panic": [17, ["Napa Cabbage", "Tomato"]],
-            "Everyone try holding hands!": [17,["Broccoli"]],
-            "Weeee!": [17,["Jalapeno"]],
+            "Goodbye everyone it was nice knowing you": [17,["Potato","Green Bean", "Tomato"]],
+            "Error 404 veggie brain is in a state of panic": [17, ["Napa Cabbage"]],
+            "Everyone try holding hands!": [17,["Broccoli", "Onion", "Carrot"]],
+            "Weeee!": [17,["Jalapeno", "Pumpkin"]],
        } 
     },
     "17": {
@@ -223,7 +222,7 @@ const gameData = {
         "text": "Get out ASAP before you get eaten!",
         "image" : "smaller_images/in_fridge.png",
 "choices":{
-            "Hide and wait for the refrigerator door to open": [18,["Broccoli"]],
+            "Hide and wait for the refrigerator door to open": [18,["Broccoli", "Pumpkin"]],
             "Rally the veggie friends to push the door. Roll out!": [18,["Jalapeno", "Bok Choy"]],
             "Try to unplug the refrigerator from the inside": [18, ["Onion","Leek"]],
             "Do what the others do": [18,["Potato"]]
@@ -244,9 +243,9 @@ const gameData = {
             swiss cheese caves. What's your next move?",
         "image" : "smaller_images/cheeseland.png",
 "choices": {
-            "Make a charcuterie board as a snack break": [20, ["Onion"]],
+            "Make a charcuterie board as a snack break": [20, ["Onion", "Green Bean"]],
             "Go inland in search of the Cheese Castle": [20,["Leek"]],
-            "Ask others what they think the group should do": [20, ["Napa Cabbage", "Green Bean"]]
+            "Ask others what they think the group should do": [20, ["Napa Cabbage", "Green Bean", "Pumpkin"]]
         }
     },
     "20":{
@@ -254,7 +253,7 @@ const gameData = {
                 \"What are you doing? This is sacred cheese you're eating!\"",
         "image" : "smaller_images/mad_gouda.png",
 "choices" : {
-            "You want some?": [21,["Onion", "Potato"]],
+            "You want some?": [21,["Onion", "Potato", "Jalapeno", "Green Bean"]],
             "Apologize immediately and ask how to get to Cheese Castle":[21, ["Pumpkin", "Leek"]]
         }
     },
@@ -264,16 +263,16 @@ const gameData = {
                 must be entertained in order to be seen.",
         "image" : "smaller_images/cheese_castle.png",
 "choices":{
-            "Sing and dance the CheeseLand anthem": [22,["Bok Choy", "Napa Cabbage"]],
+            "Sing and dance the CheeseLand anthem": [22,["Napa Cabbage", "Pumpkin"]],
             "Offer some leftover charcuterie to the king": [22,["Jalapeno", "Potato"]],
-            "Comedy skit but all the punch lines are exclusively cheese puns": [22, ["Onion", "Broccoli"]]
+            "Comedy skit but all the punch lines are exclusively cheese puns": [22, ["Bok Choy", "Onion", "Broccoli"]]
         }
     },
     "22": {
         "text": "The Cheese King laughs, but you're not sure if he's laughing with you or at you...",
         "image" : "smaller_images/performance.png",
 "choices": {
-            "Keep going, the show must go on!": [51,["Bok Choy", "Garlic"]],
+            "Keep going, the show must go on!": [51,["Bok Choy", "Garlic", "Carrot"]],
             "Guy's I'm not sure if this is working": [51, ["Tomato", "Leek"]],
             "Try to ignore the king and power through": [51, ["Napa Cabbage"]]
         }
@@ -284,9 +283,9 @@ const gameData = {
         "image" : "smaller_images/happy_king.png",
 "choices": {
             "The warm sunlight and fresh air": [23,["Jalapeno", "Potato", "Napa Cabbage"]],
-            "The hanging out with your veggie friends": [23,["Leek", "Green Bean"]],
+            "The hanging out with your veggie friends": [23,["Leek", "Green Bean", "Carrot"]],
             "The smell of your grandma's cherry pies": [23,["Pumpkin"]],
-            "Weekly cricket games at the park": [23,["Bok Choy"]]
+            "Weekly frisbee games at the park": [23,["Bok Choy"]]
         }
     },
     "23": {
@@ -294,17 +293,17 @@ const gameData = {
                     Where do you guys want to visit on the way back?",
         "image" : "smaller_images/boat.png",
 "choices":{
-            "Mushroom Island, known for pioneering mushroom tech": [24,["Tomato", "Onion"]],
-            "Dandelion Plains, known for its sunshine and farms": [25,["Potato", "Napa Cabbage"]],
-            "Forget-Me-Not Island, largely unexplored territory": [26, ["Jalapeno", "Leek"]]
+            "Mushroom Island, known for pioneering mushroom tech": [24,["Tomato", "Onion", "Leek"]],
+            "Dandelion Plains, known for its sunshine and farms": [25,["Potato", "Napa Cabbage", "Green Bean", "Pumpkin", "Carrot"]],
+            "Forget-Me-Not Island, largely unexplored territory": [26, ["Jalapeno", "Onion"]]
         }
     },
     "24": {
         "text": "Arrived at Mushroom Island! What are you gonna do?",
         "image" : "smaller_images/mushroom.png",
 "choices" :{
-            "Get a new mushroom telephone, its got wider coverage with its latest spore dispersion technology": [27,["Tomato"]],
-            "Party on da MushrooSoft roof, they're debuting their latest vehicle, the Vroomie Schroomie": [27,["Bok Choy"]],
+            "Get a new mushroom telephone, its got wider coverage with its latest spore dispersion technology": [27,["Tomato", "Carrot"]],
+            "Party on da MushrooSoft roof, they're debuting their latest vehicle, the Vroomie Schroomie": [27,["Bok Choy", "Carrot"]],
             "Buy a little mushroom keepsake for you and your friends": [27, ["Napa Cabbage", "Green Bean"]],
             "I just wanna go back home tbh": [27, ["Potato", "Garlic"]]
         }
@@ -314,7 +313,7 @@ const gameData = {
         "image" : "smaller_images/dandelion.png",
 "choices": {
             "Make dandelion crowns with friends": [27,["Green Bean", "Carrot", "Bok Choy"]],
-            "Buy some dandelion honey to gift to your cheese navigator and cheese king": [27,["Napa Cabbage", "Onion"]],
+            "Buy some dandelion honey to gift to your cheese navigator and cheese king": [27,["Napa Cabbage", "Onion", "Pumpkin"]],
             "Re-check the weather to make sure you'll be able to get home on as planned ": [27,["Tomato", "Garlic", "Leek"]],
         }
     },
@@ -323,9 +322,9 @@ const gameData = {
         "image" : "smaller_images/forgetmenot.png",
 "choices": {
             "Explore the island to make the first-ever forget me not island map!": [27,["Tomato", "Leek"]],
-            "Paint the views of the island to share with VeggieVille": [27,["Napa Cabbage"]],
+            "Paint the views of the island to share with VeggieVille": [27,["Napa Cabbage", "Green Bean"]],
             "I wanna go home. What if we get stranded here, and no one can find us?": [27,["Garlic", "Potato"]],
-            "Have a photo shoot with your friends in the forget me nots": [27,["Jalapeno"]]
+            "Have a photo shoot with your friends in the forget me nots": [27,["Jalapeno", "Pumpkin", "Carrot", "Carrot"]]
         }
     },
     "27": {
@@ -335,27 +334,28 @@ const gameData = {
             "Go partying at Club Carrot. Dance the night away!": [13,["Jalapeno"]],
             "Spend some alone time at your favorite cozy bench/spot.": [13,["Pumpkin"]],
             "Organize a community picnic to share your adventures": [13,["Napa Cabbage", "Green Bean"]],
-            "Break down what just happened with your friends": [13,["Pumpkin", "Garlic"]]
+            "Break down what just happened with your friends": [13,["Pumpkin", "Garlic"]],
+            "Go to a cute restaurant with your friends": [13, ["Carrot"]]
         }
     },
     "13": {
-        "text": "Last question! After a night of good rest, the next morning you :",
+        "text": "Last question! After a night of good rest, the next morning you:",
         "image" : "smaller_images/another_day.png",
 "choices" : {
-            "Go to a cafe to finally read that book": [0,["Napa Cabbage", "Potato"]],
-            "Head to work, get that bag": [0,["Garlic", "Leek"]],
-            "Organize a community clean up day": [0,["Pumpkin", "Green Bean"]],
+            "Go to a cafe to finally read that book": [0,["Napa Cabbage", "Potato", "Carrot"]],
+            "Head to work, get that bag": [0,["Tomato", "Leek"]],
+            "Organize a community clean up day": [0,["Pumpkin", "Green Bean", "Garlic"]],
             "Go on a veggie run": [0, ["Jalapeno", "Bok Choy"]]
         } 
     },
     "5":{
-        "text": "You've arrived at your friend's apartment. What are you guys gonna do?",
+        "text": "What are you guys gonna do at the apartment?",
         "image" : "smaller_images/at_apartment.png",
 "choices": {
-            "Arts and crafts": [28,["Carrot"]],
-            "Drink lots of beverages (wink wink)": [28,["Bok Choy"]],
+            "Arts and crafts": [28,["Carrot", "Pumpkin"]],
+            "Drink lots of beverages (wink wink)": [28,["Bok Choy", "Potato"]],
             "Play games! Loser has to post an embarassing pic on Vegstagram": [28,["Tomato", "Garlic"]],
-            "Gossip!!!": [28, ["Pumpkin", "Napa Cabbage"]]
+            "Gossip!!!": [28, ["Napa Cabbage"]]
         }
     },
     "28": {
@@ -363,9 +363,9 @@ const gameData = {
                 after he leaves, you hear him scream!",
         "image" : "smaller_images/apartment.png",
 "choices": {
-            "SCREAM!!!": [45, ["Bok Choy"]],
+            "SCREAM!!!": [45, ["Bok Choy", "Carrot"]],
             "Leo you good?": [45,["Green Bean", "Garlic"]],
-            "Oh no! Is Leo ok?": [45, ["Tomato", "Pumpkin"]]
+            "Oh no! Is Leo ok?": [45, ["Tomato", "Pumpkin", "Onion"]]
         }
     },
     "45": {
@@ -374,7 +374,7 @@ const gameData = {
 "choices": {
             "Mobilize everyone and proceed towards the scream": [29,["Broccoli", "Garlic"]],
             "Stay in the middle of the pack": [29, ["Napa Cabbage", "Green Bean"]],
-            "Linger in the back, you're scared": [29, ["Tomato", "Pumpkin"]]
+            "Linger in the back, you're scared": [29, ["Tomato", "Pumpkin", "Carrot"]]
         }
     },
     "29": {
@@ -385,7 +385,7 @@ const gameData = {
             "Heck no I’m not investigating!": [30,["Tomato"]],
             "The open window and it’s billowing curtains… it’s suspicious": [30,["Leek"]],
             "The closet. It looks slightly disheveled?": [30,["Broccoli"]],
-            "Call the veggie police!": [30, ["Napa Cabbage", "Garlic"]]
+            "Call the veggie police!": [30, ["Carrot", "Garlic"]]
         }
     },
     "30": {
@@ -422,8 +422,8 @@ const gameData = {
         "text": "You've found a temporary hiding place under a shelf. Where to next?",
         "image" : "smaller_images/hiding.png",
 "choices": {
-            "Through the air vents": [49,["Carrot", "Broccoli"]],
-            "Mad dash through the store until you find an exit": [49, ["Jalapeno"]]
+            "Through the air vents": [49,["Carrot", "Broccoli", "Tomato"]],
+            "Mad dash through the store until you find an exit": [49, ["Jalapeno", "Onion"]]
         }
     },
     "6":{
@@ -439,7 +439,7 @@ const gameData = {
         "text": "As you near the summit, night falls and you have the choice to rest or keep going",
         "image" : "smaller_images/nightfalls.png",
 "choices": {
-            "Seek Shelter in a Nearby Cave": [34,["Leek", "Pumpkin"]],
+            "Seek Shelter in a Nearby Cave": [34,["Leek", "Pumpkin", "Tomato"]],
             "Climb on!": [36,["Bok Choy", "Garlic"]]
         }
     },
@@ -448,7 +448,7 @@ const gameData = {
                  pass the night.",
         "image" : "smaller_images/cave.png",
 "choices" : {
-            "Gather resources and make a makeshift camp": [37,["Carrot"]],
+            "Gather resources and make a makeshift camp": [37,["Carrot", "Tomato"]],
             "Collectively to decide what to do": [37, ["Garlic"]],
             "Telling exciting stories and reflect on the trek so far": [37, ["Green Bean"]],
             "Map out next steps of the journey": [37, ["Broccoli"]],
@@ -467,7 +467,7 @@ const gameData = {
     "37": {
         "text": "The climb continues for days. And you finally reach the top! \
         Take a look around you, you're on top of the world! Suddenly, a gust \
-        of wind blows you off the mountain and you swirl and tumble until...",
+        of wind blows you off the mountain and you swirl and tumble off...",
         "image" : "smaller_images/vortex.png",
 "choices" :{
             "Continue": [38,[]],
@@ -478,7 +478,7 @@ const gameData = {
         swiss cheese caves, and rosemary fields. What's your move?",
         "image" : "smaller_images/cheeseland.png",
 "choices": {
-            "Make a charcuterie board as a snack break": [20,["Leek"]],
+            "Make a charcuterie board as a snack break": [20,["Leek", "Jalapeno"]],
             "Go inland in search of Cheese City": [20,["Onion", "Napa Cabbage", "Carrot"]],
             "Ask others what they think the group should do": [20,["Broccoli", "Green Bean", "Napa Cabbage"]],
             "Lead the pack using your knowledge of Cheese Land geography": [20,["Garlic"]]
