@@ -71,7 +71,7 @@ const gameData = {
         "text": "Sweet! The window slides open nicely!",
         "image" : "smaller_images/window_jump.png",
 "choices": {
-            "Jump out the window with no hesitation. Cya!": [49, ["Jalapeno", "Garlic"]],
+            "Jump out the window with no hesitation. Cya!": [49, ["Jalapeno", "Garlic", "Broccoli"]],
             "Look for something to land on before jumping": [49,["Leek", "Tomato", "Napa Cabbage"]],
             "Um I'm scared of heights": [49, ["Potato"]]
         }
@@ -102,7 +102,7 @@ const gameData = {
         "image" : "smaller_images/space_travel.png",
 "choices": {
             "Wow. This is beautiful...": [43, ["Napa Cabbage"]],
-            "Please take us back *veggie fingers intensely crossed*": [43,["Potato"]],
+            "Please take us back *veggie fingers intensely crossed*": [43,["Potato", "Broccoli"]],
             "I recognize that constellation! It's Ori-onion!": [43, ["Leek"]]
         }
     },
@@ -111,7 +111,7 @@ const gameData = {
         "image" : "smaller_images/space_confusion.png",
 "choices": {
             "Pull more levers and press more buttons!": [11,["Jalapeno", "Onion"]],
-            "Look around for a map. There's surely one in the ship right?": [39, ["Leek", "Tomato"]],
+            "Look around for a map. There's surely one in the ship right?": [39, ["Leek", "Tomato", "Broccoli"]],
             "Organize everyone and discuss team plan": [39,["Garlic"]]
         }
     },
@@ -139,7 +139,7 @@ const gameData = {
             has an idea for what buttons to press.",
         "image" : "smaller_images/spaceplan.png",
 "choices": {
-            "Full send! VeggieVille here we come": [40,["Jalapeno", "Green Bean"]],
+            "Full send! VeggieVille here we come": [40,["Jalapeno", "Green Bean", "Broccoli"]],
             "We should double check...": [40, ["Broccoli", "Carrot"]],
             "Someone else press the button, I can't do it": [40, ["Potato"] ],
             "Let's all press the button together!": [40, ["Napa Cabbage", "Green Bean"]]
@@ -176,7 +176,7 @@ const gameData = {
 "choices": {
             "Wait...was that an alien?": [13,["Bok Choy", "Leek" ]],
             "Cry. That was a lot to go through": [13,["Napa Cabbage"]],
-            "Celebrate with your friends!": [13,["Tomato", "Jalapeno", "Carrot"]],
+            "Celebrate with your friends!": [13,["Tomato", "Jalapeno", "Carrot", "Broccoli"]],
             "Take a breather somewhere secluded": [13,["Pumpkin", "Leek"]]
         }
     },
@@ -184,7 +184,7 @@ const gameData = {
         "text": "So many books to choose from! What catches your eye first?",
         "image" : "smaller_images/which_book.png",
 "choices" : {
-            "A whimsical heartwarming slice of life novel.": [15,["Napa Cabbage", "Pumpkin"]],
+            "A whimsical, heartwarming slice of life novel.": [15,["Napa Cabbage", "Pumpkin"]],
             "The Great Gourdsby, classic literature": [15,["Broccoli"]],
             "Sherlettuce Holmes, a thrilling mystery novel": [15,["Leek", "Carrot"]],
             "A self help book": [15, ["Onion"]]
@@ -244,7 +244,7 @@ const gameData = {
         "image" : "smaller_images/cheeseland.png",
 "choices": {
             "Make a charcuterie board as a snack break": [20, ["Onion", "Green Bean"]],
-            "Go inland in search of the Cheese Castle": [20,["Leek"]],
+            "Go inland in search of the Cheese Castle": [20,["Leek", "Broccoli"]],
             "Ask others what they think the group should do": [20, ["Napa Cabbage", "Green Bean", "Pumpkin"]]
         }
     },
@@ -274,7 +274,7 @@ const gameData = {
 "choices": {
             "Keep going, the show must go on!": [51,["Bok Choy", "Garlic", "Carrot"]],
             "Guy's I'm not sure if this is working": [51, ["Tomato", "Leek"]],
-            "Try to ignore the king and power through": [51, ["Napa Cabbage"]]
+            "Try to ignore the king and power through": [51, ["Napa Cabbage", "Broccoli"]]
         }
     },
     "51": {
@@ -285,7 +285,7 @@ const gameData = {
             "The warm sunlight and fresh air": [23,["Jalapeno", "Potato", "Napa Cabbage"]],
             "The hanging out with your veggie friends": [23,["Leek", "Green Bean", "Carrot"]],
             "The smell of your grandma's cherry pies": [23,["Pumpkin"]],
-            "Weekly frisbee games at the park": [23,["Bok Choy"]]
+            "Weekly frisbee games at the park": [23,["Bok Choy", "Broccoli"]]
         }
     },
     "23": {
@@ -295,7 +295,7 @@ const gameData = {
 "choices":{
             "Mushroom Island, known for pioneering mushroom tech": [24,["Tomato", "Onion", "Leek"]],
             "Dandelion Plains, known for its sunshine and farms": [25,["Potato", "Napa Cabbage", "Green Bean", "Pumpkin", "Carrot"]],
-            "Forget-Me-Not Island, largely unexplored territory": [26, ["Jalapeno", "Onion"]]
+            "Forget-Me-Not Island, largely unexplored territory": [26, ["Jalapeno", "Onion", "Broccoli"]]
         }
     },
     "24": {
@@ -321,9 +321,9 @@ const gameData = {
         "text": "Arrived at Forget-Me-Not Island! What are you gonna do?",
         "image" : "smaller_images/forgetmenot.png",
 "choices": {
-            "Explore the island to make the first-ever forget me not island map!": [27,["Tomato", "Leek"]],
-            "Paint the views of the island to share with VeggieVille": [27,["Napa Cabbage", "Green Bean"]],
-            "I wanna go home. What if we get stranded here, and no one can find us?": [27,["Garlic", "Potato"]],
+            "Explore to make the first-ever forget me not island map!": [27,["Garlic", "Leek"]],
+            "Paint various views to share with VeggieVille": [27,["Napa Cabbage", "Green Bean"]],
+            "I wanna go home": [27,["Tomato", "Potato"]],
             "Have a photo shoot with your friends in the forget me nots": [27,["Jalapeno", "Pumpkin", "Carrot", "Carrot"]]
         }
     },
@@ -331,7 +331,7 @@ const gameData = {
         "text": "After your pit stop, you finally arrive home in VeggieLand. What are you doing first?",
         "image" : "smaller_images/backhome.png",
 "choices": {
-            "Go partying at Club Carrot. Dance the night away!": [13,["Jalapeno"]],
+            "Party at Club Carrot. Dance the night away!": [13,["Jalapeno"]],
             "Spend some alone time at your favorite cozy bench/spot.": [13,["Pumpkin"]],
             "Organize a community picnic to share your adventures": [13,["Napa Cabbage", "Green Bean"]],
             "Break down what just happened with your friends": [13,["Pumpkin", "Garlic"]],
