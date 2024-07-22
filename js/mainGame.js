@@ -72,7 +72,7 @@ const gameData = {
         "image" : "smaller_images/window_jump.png",
 "choices": {
             "Jump out the window with no hesitation. Cya!": [49, ["Jalapeno"]],
-            "Look for something to land on before jumping": [49,["Leek", "Napa Cabbage"]],
+            "Look for something to land on before jumping": [49,["Leek", "Tomato", "Napa Cabbage"]],
             "Um I'm scared of heights": [49, ["Potato"]]
         }
     },
@@ -94,7 +94,7 @@ const gameData = {
         "image" : "smaller_images/corn_space.png",
 "choices": {
             "The lever that takes you into hyperspace (or whatever they call it) in the movies": [10,["Bok Choy"]],
-            "*Methodically* type random stuff in the holographic keyboard above you": [10, ["Onion"]]
+            "*Methodically* type random stuff in the holographic keyboard above you": [10, ["Onion", "Green Bean"]]
         }
     },
     "10": {
@@ -102,7 +102,7 @@ const gameData = {
         "image" : "smaller_images/space_travel.png",
 "choices": {
             "Wow. This is beautiful...": [43, ["Napa Cabbage"]],
-            "Please take us back *veggie fingers intensely crossed*": [43,["Bok Choy", "Potato"]],
+            "Please take us back *veggie fingers intensely crossed*": [43,["Potato"]],
             "I recognize that constellation! It's Ori-onion!": [43, ["Leek"]]
         }
     },
@@ -111,7 +111,7 @@ const gameData = {
         "image" : "smaller_images/space_confusion.png",
 "choices": {
             "Pull more levers and press more buttons!": [11,["Jalapeno", "Onion"]],
-            "Look around for a map. There's surely one in the ship right?": [39, ["Leek"]],
+            "Look around for a map. There's surely one in the ship right?": [39, ["Leek", "Tomato"]],
             "Organize everyone and discuss team plan": [39,["Garlic"]]
         }
     },
@@ -129,7 +129,7 @@ const gameData = {
                 VeggieVille natives, so stupid. Let me take you back.\"",
         "image" : "smaller_images/glowing_popcorn.png",
 "choices": {
-            "Thanks.": [12,["Potato"]],
+            "Thanks.": [12,["Potato", "Potato","Tomato"]],
             "THANK YOU! You saved us":[12,["Pumpkin"]],
             "Who are you? We can handle this ourselves": [12, ["Tomato"]],
             "Thank you so much! But who are you?": [12,["Onion"]]
@@ -140,15 +140,15 @@ const gameData = {
             has an idea for what buttons to press.",
         "image" : "smaller_images/spaceplan.png",
 "choices": {
-            "Full send! VeggieVille here we come": [40,["Jalapeno"]],
+            "Full send! VeggieVille here we come": [40,["Jalapeno", "Green Bean"]],
             "We should double check...": [40, ["Broccoli"]],
             "Someone else press the button, I can't do it": [40, ["Potato"] ],
-            "Let's all press the button together!": [40, ["Napa Cabbage"]]
+            "Let's all press the button together!": [40, ["Napa Cabbage", "Green Bean"]]
         }
     },
     "40": {
         "text": "\"Here goes nothing!\" As Link the Leek reaches for the lever, \
-        Oli Onion Leek yells \"Wait! I don't feel good about this. I'm really scared...\". \
+        Oli the Onion yells \"Wait! I don't feel good about this. I'm really scared...\". \
         What do you do?",
         "image" : "smaller_images/pull_lever.png",
 "choices": {
@@ -225,7 +225,7 @@ const gameData = {
 "choices":{
             "Hide and wait for the refrigerator door to open": [18,["Broccoli"]],
             "Rally the veggie friends to push the door. Roll out!": [18,["Jalapeno", "Bok Choy"]],
-            "Try to unplug the refrigerator from the inside": [18, ["Onion", "Leek"]],
+            "Try to unplug the refrigerator from the inside": [18, ["Onion","Leek"]],
             "Do what the others do": [18,["Potato"]]
         }
     },
