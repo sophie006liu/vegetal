@@ -565,7 +565,7 @@ function revealMostSelectedVegetable() {
 
     // Create the share button
     const shareButton = document.createElement('button');
-    shareButton.textContent = 'Share with Friends';
+    shareButton.textContent = 'Share the game with Friends';
     shareButton.className = 'choice-button';
 
     // Once the image is loaded, update the DOM
