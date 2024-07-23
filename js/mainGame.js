@@ -501,7 +501,7 @@ const personalities = {
     "Leek": 0 // The Investigator
 };
 
-let currentState = 27;
+let currentState = 1;
 
 function renderState(state) {
     const storyText = document.getElementById('story-text');
