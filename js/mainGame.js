@@ -546,7 +546,7 @@ function revealMostSelectedVegetable() {
     let maxCount = 0;
     let maxVeggie = '';
 
-    for (const [vegetable, count] of Object.entries(personalities)){
+    for (const [vegetable, count] of Object.entries(personalities)) {
         if (count > maxCount) {
             maxCount = count;
             maxVeggie = vegetable;
@@ -563,14 +563,30 @@ function revealMostSelectedVegetable() {
     img.src = veggieImagePath;
     img.className = 'responsive-image'; 
 
+    // Create the share button
+    const shareButton = document.createElement('button');
+    shareButton.textContent = 'Share with Friends';
+    shareButton.className = 'choice-button';
+
     // Once the image is loaded, update the DOM
     img.onload = () => {
-        choicesContainer.style.display = 'none';
         storyImage.style.display = 'none';
+        choicesContainer.style.display = 'none';
     
-        text.textContent = "Drumroll... here is your Veggie ID! Don't lose it!";
-        //display image here
+        text.textContent = "Drumroll... here is your Veggie ID! Don't lose it! (Right click or hold the image to save)";
         text.appendChild(img);
+
+        // Share button functionality
+        shareButton.onclick = () => {
+            const shareMessage = `Check out my Veggie ID! You can create yours at https://sophie006liu.github.io/vegetal/`;
+            navigator.clipboard.writeText(shareMessage).then(() => {
+                alert('Link copied to clipboard!');
+            }).catch(err => {
+                alert('Failed to copy link. Please try again.');
+            });
+        };
+
+        text.appendChild(shareButton);
     };
 }
 
