@@ -334,8 +334,7 @@ const gameData = {
             "Party at Club Carrot. Dance the night away!": [13,["Jalapeno"]],
             "Spend some alone time at your favorite cozy bench/spot.": [13,["Pumpkin"]],
             "Organize a community picnic to share your adventures": [13,["Napa Cabbage", "Green Bean"]],
-            "Break down what just happened with your friends": [13,["Pumpkin", "Garlic"]],
-            "Go to a cute restaurant with your friends": [13, ["Carrot"]]
+            "Hangout with your friends at a restaurant": [13,["Pumpkin", "Garlic", "Carrot"]]
         }
     },
     "13": {
@@ -502,7 +501,7 @@ const personalities = {
     "Leek": 0 // The Investigator
 };
 
-let currentState = 37;
+let currentState = 27;
 
 function renderState(state) {
     const storyText = document.getElementById('story-text');
