@@ -259,7 +259,7 @@ const gameData = {
     },
     "21": {
         "text": "Gouda immediately takes you to the Cheese King, hoping your group \
-                leaves as soon as possible. However, the king must be \
+                leaves as soon as possible. However, the king \
                 must be entertained in order to be seen.",
         "image" : "smaller_images/cheese_castle.png",
 "choices":{
